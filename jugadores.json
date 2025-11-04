@@ -97,5 +97,239 @@
             "numero" : 99
         }
 
-    ]
+    ],
+    "partidos": [
+        {
+            "id": 9,
+            "fecha": "DOM. 5 OCT.",
+            "formato": "Torneo",
+            "rival": "LHC",
+            "imagen_rival": "imgs/equipos/lhc-escudo.png",
+            "resultado": "2 - 4",
+            "victoria_derrota": "derrota",
+            "dt": "Martín Mateo",
+            "convocados": [
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Broyi", "numero": 6 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Totti", "numero": 11 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Balzano", "numero": 30 },
+                { "nombre": "Pancho", "numero": 99 }
+
+            ],
+            "goleadores": [
+                { "nombre": "Pancho", "goles": 1 },
+                { "nombre": "Balzano", "goles": 1 }
+            ]
+        },
+        {
+            "id": 8,
+            "fecha": "DOM. 5 OCT.",
+            "formato": "Torneo",
+            "rival": "Mercenarios F.C.",
+            "imagen_rival": "imgs/equipos/mercenarios-escudo.png",
+            "resultado": "5 - 1",
+            "victoria_derrota": "victoria",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Coco", "numero": 3 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Joaco", "numero": 20 },
+                { "nombre": "Augusto", "numero": 20 },
+                { "nombre": "Pancho", "numero": 99 }
+
+            ],
+            "goleadores": [
+                { "nombre": "Joaco", "goles": 3, "jmv": true },
+                { "nombre": "Chock", "goles": 1 },
+                { "nombre": "Pancho", "goles": 1 }
+            ]
+        },
+        {
+            "id": 7,
+            "fecha": "DOM. 28 SEPT.",
+            "formato": "Torneo",
+            "rival": "Los Guerreros de Perón",
+            "imagen_rival": "imgs/equipos/guerreros-escudo.png",
+            "resultado": "3 - 1",
+            "victoria_derrota": "victoria",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Wency", "numero": 2 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Balzano", "numero": 30 },
+                { "nombre": "Coco", "numero": 40 },
+                { "nombre": "Pancho", "numero": 99 }
+
+            ],
+            "goleadores": [
+                { "nombre": "Dylan", "goles": 3, "jmv": true }
+            ]
+        },
+        {
+            "id": 6,
+            "fecha": "DOM. 21 SEPT.",
+            "formato": "Torneo",
+            "rival": "Cristo Rey",
+            "imagen_rival": "imgs/equipos/cristo-escudo.png",
+            "resultado": "2 - 4",
+            "victoria_derrota": "derrota",
+            "dt": "Nicolás Funaro",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Totti", "numero": 11 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Joaco", "numero": 20 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Totti", "goles": 2 }
+            ]
+        },
+        {
+            "id": 5,
+            "fecha": "DOM. 14 SEPT.",
+            "formato": "Torneo",
+            "rival": "F.C. Napolitana",
+            "imagen_rival": "imgs/equipos/napolitana-escudo.png",
+            "resultado": "6 - 1",
+            "victoria_derrota": "victoria",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Dylan",  "numero": 4 },
+                { "nombre": "Pelu", "numero": 5 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Pancho", "goles": 3, "jmv": true },
+                { "nombre": "Funa", "goles": 2 },
+                { "nombre": "Dylan", "goles": 1 }
+            ]
+        },
+        {
+            "id": 4,
+            "fecha": "SAB. 6 SEPT.",
+            "formato": "Amistoso",
+            "rival": "Ruleteros",
+            "imagen_rival": "imgs/equipos/rengos-escudo.png",
+            "resultado": "8 - 3",
+            "victoria_derrota": "victoria",
+            "dt": "Benjamin Borques",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Ryan", "numero": 8 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Dylan", "goles": 3, "jmv": 3 },
+                { "nombre": "Chock", "goles": 2 },
+                { "nombre": "Pancho", "goles": 1 },
+                { "nombre": "Funa", "goles": 1 },
+                { "nombre": "Mati", "goles": 1 }
+            ]
+        },
+        {
+            "id": 3,
+            "fecha": "DOM. 23 AGOS.",
+            "formato": "Torneo",
+            "rival": "Ruleteros",
+            "imagen_rival": "imgs/equipos/rengos-escudo.png",
+            "resultado": "2 - 1",
+            "victoria_derrota": "victoria",
+            "dt": "Benjamin Borques",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Wency", "numero": 2 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Broyi", "numero": 6 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Joaco", "numero": 20 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Pancho",   "jmv": true },
+                { "nombre": "Dylan",   "goles": 1 },
+                { "nombre": "Broyi",   "goles": 1 }
+            ]
+        },
+        {
+            "id": 2,
+            "fecha": "DOM. 16 AGOS.",
+            "formato": "Amistoso",
+            "rival": "Ruleteros",
+            "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
+            "resultado": "2 - 3",
+            "victoria_derrota": "derrota",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Broyi", "numero": 6 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa",  "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Totti", "numero": 11 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Dylan", "goles": 1 },
+                { "nombre": "Funa", "goles": 1 }
+            ]
+        },
+        {
+            "id": 1,
+            "fecha": "DOM. 9 AGOS.",
+            "formato": "Amistoso",
+            "rival": "Malvinas",
+            "imagen_rival": "imgs/equipos/malvinas-escudo.png",
+            "resultado": "6 - 3",
+            "victoria_derrota": "victoria",
+            "dt": "Nicolás Mateo",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Dylan", "numero": 4 },
+                { "nombre": "Pelu", "numero": 5 },
+                { "nombre": "Broyi", "numero": 6 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Totti", "numero": 11 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Pancho", "goles": 2, "jmv": true },
+                { "nombre": "Totti", "goles": 2 },
+                { "nombre": "Broyi", "goles": 1 },
+                { "nombre": "Gol En Contra", "goles": 1 }
+            ]
+        }
+        
+    ] 
 }
