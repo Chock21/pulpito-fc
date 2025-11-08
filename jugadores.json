@@ -102,7 +102,7 @@
         {
             "id": 10,
             "fecha": "DOM. 2 NOV.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "Poco y Nada",
             "imagen_rival": "imgs/equipos/lhc-escudo.png",
             "resultado": "3 - 1",
@@ -127,7 +127,7 @@
         {
             "id": 9,
             "fecha": "DOM. 5 OCT.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "LHC",
             "imagen_rival": "imgs/equipos/lhc-escudo.png",
             "resultado": "2 - 4",
@@ -152,7 +152,7 @@
         {
             "id": 8,
             "fecha": "DOM. 5 OCT.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "Mercenarios F.C.",
             "imagen_rival": "imgs/equipos/mercenarios-escudo.png",
             "resultado": "5 - 1",
@@ -178,7 +178,7 @@
         {
             "id": 7,
             "fecha": "DOM. 28 SEPT.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "Los Guerreros de Perón",
             "imagen_rival": "imgs/equipos/guerreros-escudo.png",
             "resultado": "3 - 1",
@@ -203,7 +203,7 @@
         {
             "id": 6,
             "fecha": "DOM. 21 SEPT.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "Cristo Rey",
             "imagen_rival": "imgs/equipos/cristo-escudo.png",
             "resultado": "2 - 4",
@@ -227,7 +227,7 @@
         {
             "id": 5,
             "fecha": "DOM. 14 SEPT.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "F.C. Napolitana",
             "imagen_rival": "imgs/equipos/napolitana-escudo.png",
             "resultado": "6 - 1",
@@ -279,7 +279,7 @@
         {
             "id": 3,
             "fecha": "DOM. 23 AGOS.",
-            "formato": "Torneo",
+            "formato": "Grupos",
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/rengos-escudo.png",
             "resultado": "2 - 1",

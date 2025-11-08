@@ -8,189 +8,179 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-body p-0 shadow-lg">
-            <div class="container h-100">
-                <a class="logo" href="index.html">
+        <nav class="h-[7vh]">
+            <div class="w-[90%] h-full m-auto">
+                <a class="h-[130px] w-[130px] absolute -top-2.5 z-9999" href="index.html">
                     <img src="imgs/pulpito_fc.svg" alt="Pulpito-escudo">
                 </a>
-                <div class="d-flex w-100 h-100">
-                    <div class="d-flex flex-row justify-content-end w-100 h-100 fs-5 audiowide-nav">
-                        <a class="nav-link active border-end border-start px-3 p-0" href="#">PARTIDOS</a>
-                        <a class="nav-link active border-end px-3 p-0" href="#">JUGADORES</a>
-                        <a class="nav-link active border-end px-3 p-0" href="#">ESTADISTICAS</a>
-                        <a class="nav-link active border-end px-3 p-0" href="#">JMVS</a>
-                        <a class="nav-link active border-end px-3 p-0" href="#">GALERIA</a>
+                <div class="justify-end audiowide-nav hidden md:flex">
+                    <a class="nav-link text-base border-e border-s font-semibold px-3 p-0" href="#">PARTIDOS</a>
+                    <a class="nav-link text-base border-e font-semibold px-3 p-0" href="#">JUGADORES</a>
+                    <a class="nav-link text-base border-e font-semibold px-3 p-0" href="#">ESTADISTICAS</a>
+                    <a class="nav-link text-base border-e font-semibold px-3 p-0" href="#">JMVS</a>
+                    <a class="nav-link text-base border-e font-semibold px-3 p-0" href="#">GALERIA</a>
+                    
+                </div>
+                <div class="h-full flex justify-end items-center md:hidden">    
+                    <button type="button" command="--toggle" commandfor="mobile-menu" class="h-full">
+                        <span class="sr-only">Open main menu</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 in-aria-expanded:hidden">
+                            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 not-in-aria-expanded:hidden">
+                            <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+            </div>
+            <el-disclosure id="mobile-menu" hidden class="block md:hidden">
+                <div class="w-full absolute right-0 top-19 bg-[#370068]">
+                    <div class="flex flex-col audiowide-nav">
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">PARTIDOS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">JUGADORES</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">ESTADISTICAS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">JMVS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">GALERIA</a>
                     </div>
                 </div>
-                <button class="navbar-toggler border-0 hover-effect" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Toggle navigation">
-                  <i class="bi bi-list fs-3 nav-ham"></i>
-                </button>
-            </div>
+            </el-disclosure>
         </nav>
-        <div class="noticias-nav"><p class="m-0"><strong>PULPITO F.C. 6 - F.C. NAPOLITANA 1 - RESULTADO FINAL</strong></p></div>
+        <div class="noticias-nav z-900"><!-- <p class="m-0"><strong>PULPITO F.C. 6 - F.C. NAPOLITANA 1 - RESULTADO FINAL</strong></p> --></div>
     </header>
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imgs/banner-1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="imgs/banner-2.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <div class="container my-4">
-            <h1 class="audiowide-nav fs-1">ESTADISTICAS</h1>
-            <div class="d-flex mt-4">
-                <div class="me-4 w-25">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th class="text-center" colspan="3">GOLES</th>
-                            </tr>
-                            <tr>
-                                <th class="text-center">#</th>
-                                <th class="text-center">JUGADORES</th>
-                                <th class="text-center">GOLES</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th class="text-center">1</th>
-                                <td>Dylan</td>
-                                <td class="text-center">6</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">2</th>
-                                <td>Pancho</td>
-                                <td class="text-center">5</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">3</th>
-                                <td>Funa</td>
-                                <td class="text-center">4</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">4</th>
-                                <td>Toti</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">5</th>
-                                <td>Martin</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">6</th>
-                                <td>Broyi</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">7</th>
-                                <td>Mati</td>
-                                <td class="text-center">1</td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
-                </div>
-                <div class="w-25 me-4">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th class="text-center" colspan="3">ASISTENCIAS</th>
-                            </tr>
-                            <tr>
-                                <th class="text-center">#</th>
-                                <th class="text-center">JUGADORES</th>
-                                <th class="text-center">ASISTENCIAS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th class="text-center">1</th>
-                                <td>Martin</td>
-                                <td class="text-center">3</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">2</th>
-                                <td>Pancho</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">3</th>
-                                <td>Funa</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">4</th>
-                                <td>Toti</td>
-                                <td class="text-center">2</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">5</th>
-                                <td>Dylan</td>
-                                <td class="text-center">1</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="w-25">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th class="text-center" colspan="3">JUGADOR MEJOR VALORADO</th>
-                            </tr>
-                            <tr>
-                                <th class="text-center">#</th>
-                                <th class="text-center">JUGADORES</th>
-                                <th class="text-center">JMVS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th class="text-center">1</th>
-                                <td>Pancho</td>
-                                <td class="text-center">3</td>
-                            </tr>
-                            <tr>
-                                <th class="text-center">2</th>
-                                <td>Dylan</td>
-                                <td class="text-center">1</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+    
+        <div class="w-[95%] md:w-[80%] m-auto mt-10 mb-4">
+            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">ESTADISTICAS</h1>
+            <div class="flex flex-col md:flex-row sm:gap-2 text-base items-start">
+                <table class="w-full my-3 sm:m-0">
+                    <thead class="bg-[#370068] text-white">
+                        <tr>
+                            <th class="text-center" colspan="3">GOLES</th>
+                        </tr>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-center">JUGADORES</th>
+                            <th class="text-center">GOLES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-center">1</th>
+                            <td class="ps-2">Dylan</td>
+                            <td class="text-center">6</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">2</th>
+                            <td class="ps-2">Pancho</td>
+                            <td class="text-center">5</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">3</th>
+                            <td class="ps-2">Funa</td>
+                            <td class="text-center">4</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">4</th>
+                            <td class="ps-2">Toti</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">5</th>
+                            <td class="ps-2">Martin</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">6</th>
+                            <td class="ps-2">Broyi</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">7</th>
+                            <td class="ps-2">Mati</td>
+                            <td class="text-center">1</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <table class="w-full">
+                    <thead class="bg-[#370068] text-white">
+                        <tr>
+                            <th class="text-center" colspan="3">ASISTENCIAS</th>
+                        </tr>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-center">JUGADORES</th>
+                            <th class="text-center">ASISTENCIAS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-center">1</th>
+                            <td>Martin</td>
+                            <td class="text-center">3</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">2</th>
+                            <td>Pancho</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">3</th>
+                            <td>Funa</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">4</th>
+                            <td>Toti</td>
+                            <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">5</th>
+                            <td>Dylan</td>
+                            <td class="text-center">1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="w-full mt-4 sm:m-0">
+                    <thead class="bg-[#370068] text-white">
+                        <tr>
+                            <th class="text-center" colspan="3">JUGADOR MEJOR VALORADO</th>
+                        </tr>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-center">JUGADORES</th>
+                            <th class="text-center">JMVS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-center">1</th>
+                            <td>Pancho</td>
+                            <td class="text-center">3</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">2</th>
+                            <td>Dylan</td>
+                            <td class="text-center">1</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="container my-4">
-            <h1 class="audiowide-nav fs-1">PARTIDOS</h1>
-            <div class="accordion mt-4 border partidos"></div>
+        <div class="w-[95%] md:w-[80%] m-auto">
+            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">PARTIDOS</h1>
+            <div class="w-full partidos border-t border-s border-e border-gray-400"></div>
+        </div>
+        <div class="w-[95%] md:w-[80%] m-auto my-4">
+            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">JUGADORES</h1>
+            <div class="jugadores grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
         </div>
         <div class="container my-4">
-            <h1 class="audiowide-nav fs-1">JUGADORES</h1>
-            <div class="jugadores mt-4"></div>
-        </div>
-        <div class="container my-4">
-            <h1 class="audiowide-nav fs-1">GALERIA</h1>
+            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">GALERIA</h1>
         </div>
     </main>
     <footer class="border-top">
@@ -201,7 +191,7 @@
             <p class="m-0 py-2 border-top">&copy; 2025 - Pulpito Football Club. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
     <script>
         fetch('jugadores.json')
             .then(response => response.json())
@@ -211,12 +201,12 @@
                 jugadoresDiv.innerHTML = ''; // Limpia el contenido actual
                 data.jugadores.forEach(jugador => {
                     jugadoresDiv.innerHTML += `
-                        <div class="border">
-                            <img src="${jugador.imagen}" alt="" class="w-100">
-                            <div class="jugador-linea w-100">
-                                <div class="w-50"></div>
+                        <div class="border border-gray-400">
+                            <img src="${jugador.imagen}" alt="" class="w-full">
+                            <div class="jugador-linea w-full">
+                                <div class="w-[50%]"></div>
                             </div>
-                            <div class="d-flex justify-content-between py-3 px-4">
+                            <div class="flex justify-between py-3 px-4">
                                 <div>
                                     <p class="mb-0">${jugador.nombre}</p>
                                     <p class="mb-0">${jugador.apellido}</p>
@@ -228,70 +218,107 @@
                         </div>
                     `;
                 });
+            });
 
-                //Partidos
-                const partidosDiv = document.querySelector('.partidos');
-                if (Array.isArray(data.partidos)) {
-                    const htmlPartidos = data.partidos.map(p => {
-                        const id = p.id;
-                        const fecha = p.fecha ? p.fecha : 'Fecha desconocida';
-                        const formato = p.formato ? p.formato : 'Formato desconocido';
-                        const rival = p.rival ? p.rival : 'Rival desconocido';
-                        const imagen_rival = p.imagen_rival ? p.imagen_rival : 'img_rival desconocida';
-                        const resultado = p.resultado ? p.resultado : 'Resultado desconocido';
-                        const vod = p.victoria_derrota;
-                        const dt = p.dt ? p.dt : 'DT desconocido';
-                        
-                        
-                        return `
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse${id}" aria-expanded="true" aria-controls="panelsStayOpen-collapse${id}">
-                                        <div class="d-flex w-25">
-                                            <p class="pe-2 py-2 m-0 border-end fw-bold w-50">${fecha}</p>
-                                            <p class="px-2 py-2 m-0 border-end text-center w-50">${formato}</p>
-                                        </div>
-                                        <div class="d-flex justify-content-center w-75">
-                                            <div class="d-flex justify-content-end" style="width: 30%;">
-                                                <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
-                                                <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+            //Partidos
+            fetch('jugadores.json')
+                .then(response => response.json())
+                .then(data => {
+                    const partidosDiv = document.querySelector('.partidos');
+                    if (Array.isArray(data.partidos)) {
+                        const htmlPartidos = data.partidos.map((p, idx) => {
+                            const id = p.id ?? `partido-${idx}`;
+                            const fecha = p.fecha ? p.fecha : 'Fecha desconocida';
+                            const formato = p.formato ? p.formato : 'Formato desconocido';
+                            const rival = p.rival ? p.rival : 'Rival desconocido';
+                            const imagen_rival = p.imagen_rival ? p.imagen_rival : 'imgs/default-rival.png';
+                            const resultado = p.resultado ? p.resultado : 'Resultado desconocido';
+                            const vod = p.victoria_derrota ? p.victoria_derrota : ''; // clase para resultado
+                            const dt = p.dt ? p.dt : 'DT desconocido';
+
+                            return `
+                                <div class="border-b border-gray-400">
+                                    <button type="button" data-accordion-target="#accordion-body-${id}" aria-expanded="false" class="flex justify-between items-center border-b-gray-300 w-full p-3">
+                                        <div class="flex items-center justify-between w-full">
+                                            <div class="flex flex-col justify-end items-center w-1/3">
+                                                <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" class="mx-2 w-10 h-10">
+                                                <p class="my-2 text-sm font-bold text-lg">Pulpito F.C.</p>
                                             </div>
-                                            <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado ${vod}">${resultado}</p>
-                                            <div class="d-flex justify-content-start" style="width: 30%;">
-                                                <img src="${imagen_rival}" alt="escudo-napolitana" style="width: 40px; height: 40px;" class="mx-2">
-                                                <p class="my-2 fw-bold fs-5">${rival}</p>
+                                        
+                                            <p class="px-2 py-1 my-1 mx-2 text-base font-bold text-white resultado ${vod}">${resultado}</p>
+                                        
+                                            <div class="flex flex-col items-center w-1/3">
+                                                <img src="${imagen_rival}" alt="escudo-rival" class="mx-2 w-10 h-10">
+                                                <p class="my-2 text-sm font-bold text-lg">${rival}</p>
                                             </div>
+                                            <svg data-accordion-icon class="w-6 h-6 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
                                         </div>
                                     </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapse${id}" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                                    <div class="accordion-body d-flex">
-                                        <div class="border-end w-25 pe-3">
-                                            <p><strong>DT: </strong>${dt}</p>
-                                            <p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
-                                            <div class="d-flex w-100">
-                                                <div class="w-50">
-                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(0, Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="fs-6 convocados d-inline-block">${j.numero}.</strong> ${j.nombre}</p>`).join('') : '<p>No hay convocados</p>'}
+                                </div>
+                                <div id="accordion-body-${id}" class="hidden">
+                                    <div class="flex p-4 bg-gray-100 border-b border-gray-400">
+                                        <div class="border-r border-gray-400 w-1/4 pr-3">
+                                            <p class="pb-3"><strong>DT: </strong>${dt}</p>
+                                            <p class="text-center border-t border-b border-gray-400 py-2 mb-3">Convocados</p>
+                                            <div class="flex w-full">
+                                                <div class="w-1/2">
+                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(0, Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : '<p>No hay convocados</p>'}
                                                 </div>
-                                                <div class="w-50">
-                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="fs-6 convocados d-inline-block">${j.numero}.</strong> ${j.nombre}</p>`).join('') : ''}
+                                                <div class="w-1/2">
+                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : ''}
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="ps-4">
-                                            ${p.goleadores && p.goleadores.length > 0 ? p.goleadores.map(g => `<p class="m-0">${g.nombre} ${'<img src="imgs/football.png" alt="football" style="width: 14px;"> '.repeat(g.goles)} ${g.jmv ? '<strong class="border px-1">JMV</strong>' : ''}</p>`).join('') : '<p>No hay goles registrados</p>'}
+                                        <div class="pl-4">
+                                            ${p.goleadores && p.goleadores.length > 0 ? p.goleadores.map(g => `<p class="flex items-center gap-1">${g.nombre} ${'<img src="imgs/football.png" alt="football" style="width: 14px; height: 14px;" /> '.repeat(g.goles || 0)} ${g.jmv ? '<strong class="border px-1">JMV</strong>' : ''}</p>`).join('') : '<p>No hay goles registrados</p>'}
                                         </div>
                                     </div>
                                 </div>
-                            </div>`;
-                    }).join('');
-                    partidosDiv.innerHTML = htmlPartidos;
-                } else {
-                  partidosDiv.innerHTML = '';
-                }
-            });
-        
-        
+                                `;
+                        }).join('');
+                        partidosDiv.innerHTML = htmlPartidos;
+
+                        function initAccordion({ allowMultiple = false } = {}) {
+                            const buttons = document.querySelectorAll('[data-accordion-target]');
+                            buttons.forEach(btn => {
+                                const targetSelector = btn.getAttribute('data-accordion-target');
+                                const target = document.querySelector(targetSelector);
+                                if (!target) return;
+                                btn.setAttribute('aria-expanded', target.classList.contains('hidden') ? 'false' : 'true');
+
+                                btn.addEventListener('click', () => {
+                                    const expanded = btn.getAttribute('aria-expanded') === 'true';
+
+                                    if (!allowMultiple) {
+                                        document.querySelectorAll('[data-accordion-target]').forEach(b => {
+                                            if (b === btn) return;
+                                            const sel = b.getAttribute('data-accordion-target');
+                                            const t = document.querySelector(sel);
+                                            if (t && !t.classList.contains('hidden')) {
+                                                t.classList.add('hidden');
+                                                b.setAttribute('aria-expanded', 'false');
+                                                const ico = b.querySelector('[data-accordion-icon]');
+                                                if (ico) ico.classList.remove('rotate-180');
+                                            }
+                                        });
+                                    }
+
+                                    target.classList.toggle('hidden');
+                                    btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+
+                                    const icon = btn.querySelector('[data-accordion-icon]');
+                                    if (icon) icon.classList.toggle('rotate-180');
+                                });
+                            });
+                        }
+
+                        initAccordion({ allowMultiple: false });
+                    } else {
+                        partidosDiv.innerHTML = '';
+                    }
+                });
     </script>
 </body>
 </html>
