@@ -179,16 +179,17 @@
             <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">JUGADORES</h1>
             <div class="jugadores grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
         </div>
-        <div class="container my-4">
+        <div class="w-[95%] md:w-[80%] m-auto my-4">
             <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">GALERIA</h1>
+            <p>Proximamente ... Talvez, Quizás ... :D</p>
         </div>
     </main>
-    <footer class="border-top">
-        <div class="container border-end border-start">
+    <footer class="border-t border-gray-300">
+        <div class="w-[95%] md:w-[80%] m-auto border-s border-e border-gray-300">
             <a href="" class="">
-                <img class="my-2 border-end" src="imgs/pulpito_fc.svg" alt="Pulpito-escudo" style="width: 150px;">
+                <img class="border-e border-gray-300" src="imgs/pulpito_fc.svg" alt="Pulpito-escudo" style="width: 150px;">
             </a>
-            <p class="m-0 py-2 border-top">&copy; 2025 - Pulpito Football Club. Todos los derechos reservados.</p>
+            <p class="m-0 p-2 border-t border-gray-300">&copy; 2025 - Pulpito Football Club. Todos los derechos reservados.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
@@ -259,15 +260,15 @@
                                 </div>
                                 <div id="accordion-body-${id}" class="hidden">
                                     <div class="flex p-4 bg-gray-100 border-b border-gray-400">
-                                        <div class="border-r border-gray-400 w-1/4 pr-3">
+                                        <div class="border-r border-gray-400 w-1/2 lg:w-1/4 pr-3">
                                             <p class="pb-3"><strong>DT: </strong>${dt}</p>
                                             <p class="text-center border-t border-b border-gray-400 py-2 mb-3">Convocados</p>
                                             <div class="flex w-full">
                                                 <div class="w-1/2">
-                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(0, Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : '<p>No hay convocados</p>'}
+                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(0, Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm sm:text-base inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : '<p>No hay convocados</p>'}
                                                 </div>
                                                 <div class="w-1/2">
-                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : ''}
+                                                    ${p.convocados && p.convocados.length > 0 ? p.convocados.slice(Math.ceil(p.convocados.length / 2)).map(j => `<p class="m-0"><strong class="text-sm sm:text-base inline-block font-semibold convocados">${j.numero}.</strong> ${j.nombre}</p>`).join('') : ''}
                                                 </div>
                                             </div>
                                         </div>
