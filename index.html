@@ -20,11 +20,11 @@
                     <img src="imgs/pulpito_fc.svg" alt="Pulpito-escudo">
                 </a>
                 <div class="h-full justify-end audiowide-nav hidden md:flex">
-                    <a class="nav-link text-base border-e border-s border-gray-300 px-3 p-0" href="#">PARTIDOS</a>
-                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#">JUGADORES</a>
-                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#">ESTADISTICAS</a>
-                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#">JMVS</a>
-                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#">GALERIA</a>
+                    <a class="nav-link text-base border-e border-s border-gray-300 px-3 p-0" href="#PARTIDOS">PARTIDOS</a>
+                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#JUGADORES">JUGADORES</a>
+                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#ESTADISTICAS">ESTADISTICAS</a>
+                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#ESTADISTICAS">JMVS</a>
+                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#GALERIA">GALERIA</a>
                     
                 </div>
                 <div class="h-full flex justify-end items-center md:hidden">    
@@ -41,21 +41,21 @@
             <el-disclosure id="mobile-menu" hidden class="block md:hidden">
                 <div class="w-full absolute right-0 top-19 bg-[#370068]">
                     <div class="flex flex-col audiowide-nav">
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">PARTIDOS</a>
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">JUGADORES</a>
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">ESTADISTICAS</a>
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">JMVS</a>
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#">GALERIA</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#PARTIDOS">PARTIDOS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#JUGADORES">JUGADORES</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#ESTADISTICAS">ESTADISTICAS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#ESTADISTICAS">JMVS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#GALERIA">GALERIA</a>
                     </div>
                 </div>
             </el-disclosure>
         </nav>
-        <div class="noticias-nav z-900"><!-- <p class="m-0"><strong>PULPITO F.C. 6 - F.C. NAPOLITANA 1 - RESULTADO FINAL</strong></p> --></div>
+        <div class="noticias-nav text-sm z-900"><p class="m-0"><strong>PULPITO F.C. 3 - Hacha y Timba 2 - RESULTADO FINAL</strong></p></div>
     </header>
     <main>
     
         <div class="w-[95%] md:w-[80%] m-auto mt-10 mb-4">
-            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">ESTADISTICAS</h1>
+            <h1 id="ESTADISTICAS" class="audiowide-nav text-4xl font-semibold mt-10 mb-4">ESTADISTICAS</h1>
             <div class="flex flex-col md:flex-row sm:gap-2 text-base items-start">
                 <table class="w-full my-3 sm:m-0">
                     <thead class="bg-[#370068] text-white">
@@ -77,7 +77,7 @@
                         <tr>
                             <th class="text-center">2</th>
                             <td class="ps-2">Pancho</td>
-                            <td class="text-center">9</td>
+                            <td class="text-center">11</td>
                         </tr>
                         <tr>
                             <th class="text-center">3</th>
@@ -114,6 +114,11 @@
                             <td class="ps-2">Balzano</td>
                             <td class="text-center">1</td>
                         </tr>
+                        <tr>
+                            <th class="text-center">10</th>
+                            <td class="ps-2">Rama</td>
+                            <td class="text-center">1</td>
+                        </tr>
                         
                     </tbody>
                 </table>
@@ -135,13 +140,13 @@
                             <td class="text-center">4 </td>
                         </tr>
                         <tr>
-                            <th class="text-center">2</th>
-                            <td>Pancho</td>
-                            <td class="text-center">2</td>
-                        </tr>
-                        <tr>
                             <th class="text-center">3</th>
                             <td>Funa</td>
+                            <td class="text-center">3</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">2</th>
+                            <td>Pancho</td>
                             <td class="text-center">2</td>
                         </tr>
                         <tr>
@@ -152,7 +157,7 @@
                         <tr>
                             <th class="text-center">5</th>
                             <td>Dylan</td>
-                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
                         </tr>
                     </tbody>
                 </table>
@@ -183,21 +188,76 @@
                             <td>Joaco</td>
                             <td class="text-center">1</td>
                         </tr>
+                        <tr>
+                            <th class="text-center">4</th>
+                            <td>Rama</td>
+                            <td class="text-center">1</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div class="w-[95%] md:w-[80%] m-auto">
-            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">PARTIDOS</h1>
+            <h1 id="PARTIDOS" class="audiowide-nav text-4xl font-semibold mt-10 mb-4">PARTIDOS</h1>
             <div class="w-full partidos border-t border-s border-e border-gray-400"></div>
         </div>
         <div class="w-[95%] md:w-[80%] m-auto my-4">
-            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">JUGADORES</h1>
+            <h1 id="JUGADORES" class="audiowide-nav text-4xl font-semibold mt-10 mb-4">JUGADORES</h1>
             <div class="jugadores grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
         </div>
         <div class="w-[95%] md:w-[80%] m-auto my-4">
-            <h1 class="audiowide-nav text-4xl font-semibold mt-10 mb-4">GALERIA</h1>
+            <h1 id="GALERIA" class="audiowide-nav text-4xl font-semibold mt-10 mb-4">GALERIA</h1>
             <p>Proximamente ... Talvez, Quizás ... :D</p>
+        </div>
+        <div class="w-[95%] md:w-[80%] m-auto my-4">
+            <h1 id="TABLA" class="audiowide-nav text-4xl font-semibold mt-10 mb-4">TABLA</h1>
+            <div class="flex flex-col lg:flex-row sm:gap-2 text-base items-start ">
+                <table class="w-full lg:w-1/2 mb-5">
+                    <thead class="bg-[#370068] text-white">
+                        <tr>
+                            <th colspan="10">Grupo A</th>
+                        </tr>
+                        <tr>
+                            <th>#</th>
+                            <th>Equipos</th>
+                            <th>PTS</th>
+                            <th>PJ</th>
+                            <th>PG</th>
+                            <th>PE</th>
+                            <th>PP</th>
+                            <th class="hidden lg:table-cell">GF</th>
+                            <th class="hidden lg:table-cell">GC</th>
+                            <th>DG</th>
+                        </tr>
+                    </thead>
+                    <tbody class="grupo-a">
+                        
+                    </tbody>
+                </table>
+
+                <table class="w-full lg:w-1/2">
+                    <thead class="bg-[#370068] text-white">
+                        <tr>
+                            <th colspan="10">Grupo B</th>
+                        </tr>
+                        <tr>
+                            <th>#</th>
+                            <th>Equipos</th>
+                            <th>PTS</th>
+                            <th>PJ</th>
+                            <th>PG</th>
+                            <th>PE</th>
+                            <th>PP</th>
+                            <th class="hidden lg:table-cell">GF</th>
+                            <th class="hidden lg:table-cell">GC</th>
+                            <th>DG</th>
+                        </tr>
+                    </thead>
+                    <tbody class="grupo-b">
+                        
+                    </tbody>
+                </table>
+            </div>
         </div>
     </main>
     <footer class="border-t border-gray-300">
@@ -219,7 +279,7 @@
                 data.jugadores.forEach(jugador => {
                     jugadoresDiv.innerHTML += `
                         <div class="border border-gray-400">
-                            <img src="${jugador.imagen}" alt="" class="w-full">
+                            <img src="${jugador.imagen}" alt="" class="w-full" style="with: 495px; height: 495px; object-fit: cover;">
                             <div class="jugador-linea w-full">
                                 <div class="w-[50%]"></div>
                             </div>
@@ -336,6 +396,61 @@
                         partidosDiv.innerHTML = '';
                     }
                 });
+
+            fetch('jugadores.json')
+                .then(response => response.json())
+                .then(data => {
+                    const grupoA = document.querySelector('.grupo-a');
+                    const grupoB = document.querySelector('.grupo-b');
+                    grupoA.innerHTML = '';
+                    grupoB.innerHTML = '';
+                    let tabla = data.tabla;
+                    let grupoa = [];
+                    let grupob = [];
+
+                    if (Array.isArray(tabla)) {
+                        if (tabla.length > 0 && typeof tabla[0] === 'object') {
+                            grupoa = tabla[0].grupoa || tabla[0].grupA || [];
+                            grupob = tabla[0].grupob || tabla[0].grupB || [];
+                        }
+                    } else if (tabla && typeof tabla === 'object') {
+                        grupoa = tabla.grupoa || tabla.grupA || [];
+                        grupob = tabla.grupob || tabla.grupB || [];
+                    }
+                    grupoa.forEach(jugador => {
+                        grupoA.innerHTML += `
+                            <tr>
+                                <th>${jugador.posicion}</th>
+                                <th class="font-normal text-left">${jugador.equipo}</th>
+                                <th class="bg-[#370068] text-white">${jugador.pts}</th>
+                                <th class="font-normal">${jugador.pj}</th>
+                                <th class="font-normal">${jugador.pg}</th>
+                                <th class="font-normal">${jugador.pe}</th>
+                                <th class="font-normal">${jugador.pp}</th>
+                                <th class="font-normal hidden lg:table-cell">${jugador.gf}</th>
+                                <th class="font-normal hidden lg:table-cell">${jugador.gc}</th>
+                                <th class="font-normal">${jugador.dg}</th>
+                            </tr>
+                        `;
+                    });
+                    grupob.forEach(jugador => {
+                        grupoB.innerHTML += `
+                            <tr>
+                                <th>${jugador.posicion}</th>
+                                <th class="font-normal text-left ms-5">${jugador.equipo}</th>
+                                <th class="bg-[#370068] text-white">${jugador.pts}</th>
+                                <th class="font-normal">${jugador.pj}</th>
+                                <th class="font-normal">${jugador.pg}</th>
+                                <th class="font-normal">${jugador.pe}</th>
+                                <th class="font-normal">${jugador.pp}</th>
+                                <th class="font-normal hidden lg:table-cell">${jugador.gf}</th>
+                                <th class="font-normal hidden lg:table-cell">${jugador.gc}</th>
+                                <th class="font-normal">${jugador.dg}</th>
+                            </tr>
+                        `;
+                    });
+                });
+
     </script>
 </body>
 </html>
