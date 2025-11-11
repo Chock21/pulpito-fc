@@ -5,15 +5,23 @@
             "apellido" : "MASSA",
             "apodo" : "Massa",
             "posicion" : "Arquero",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/massa.png",
             "numero" : 1
+        },
+        {
+            "nombre" : "Wenceslao",
+            "apellido" : "GARCIA",
+            "apodo" : "Dylan",
+            "posicion" : "Defensor",
+            "imagen" : "imgs/jugadores/wency.png",
+            "numero" : 2
         },
         {
             "nombre" : "Dylan",
             "apellido" : "SOTO",
             "apodo" : "Dylan",
             "posicion" : "Defensor",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/dylan.png",
             "numero" : 4
         },
         {
@@ -21,7 +29,7 @@
             "apellido" : "NADALES",
             "apodo" : "Pelu",
             "posicion" : "Mediocampista",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/pelu.png",
             "numero" : 5
         },
         {
@@ -29,7 +37,7 @@
             "apellido" : "BROYAD",
             "apodo" : "Broyi",
             "posicion" : "Defensor",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/broyi.png",
             "numero" : 6
         },
         {
@@ -37,7 +45,7 @@
             "apellido" : "FERRANTELLI",
             "apodo" : "Luchi",
             "posicion" : "Defensor",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/luchi.png",
             "numero" : 7
         },
         {
@@ -45,7 +53,7 @@
             "apellido" : "EO",
             "apodo" : "Ryan",
             "posicion" : "Mediocampista",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/ryan.jpg",
             "numero" : 8
         },
         {
@@ -59,9 +67,9 @@
         {
             "nombre" : "Martín",
             "apellido" : "MATEO",
-            "apodo" : "Martín",
+            "apodo" : "Chock",
             "posicion" : "Delantero",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/chock.png",
             "numero" : 10
         },
         {
@@ -69,7 +77,7 @@
             "apellido" : "DOTTORI",
             "apodo" : "Toti",
             "posicion" : "Delantero",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/totti.png",
             "numero" : 11
         },
         {
@@ -85,7 +93,7 @@
             "apellido" : "TORRES",
             "apodo" : "Joaco",
             "posicion" : "Delantero",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/joaco.png",
             "numero" : 20
         },
         {
@@ -93,7 +101,7 @@
             "apellido" : "FRECCERO",
             "apodo" : "Pancho",
             "posicion" : "Delantero",
-            "imagen" : "imgs/jugadores/default.png",
+            "imagen" : "imgs/jugadores/pancho.png",
             "numero" : 99
         },
         {
@@ -128,8 +136,8 @@
                 { "nombre": "Pancho", "numero": 99 }
             ],
             "goleadores": [
-                { "nombre": "Pancho", "goles": 2 },
-                { "nombre": "Rama", "goles": 1, "jmv": true }
+                { "nombre": "Rama", "goles": 1, "jmv": true },
+                { "nombre": "Pancho", "goles": 2 }
             ]
         },
         {
