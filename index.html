@@ -418,7 +418,7 @@
                     }
                     grupoa.forEach(jugador => {
                         grupoA.innerHTML += `
-                            <tr>
+                            <tr class="${jugador.expulsado ? 'bg-red-300' : ''} ${jugador.posicion <= 8 ? 'bg-green-100' : 'bg-red-200'}">
                                 <th>${jugador.posicion}</th>
                                 <th class="font-normal text-left">${jugador.equipo}</th>
                                 <th class="bg-[#370068] text-white">${jugador.pts}</th>
@@ -434,9 +434,9 @@
                     });
                     grupob.forEach(jugador => {
                         grupoB.innerHTML += `
-                            <tr>
+                            <tr class="${jugador.expulsado ? 'bg-red-200 line-through line-through' : ''} ${jugador.posicion <= 8 ? 'bg-green-100' : 'bg-red-200'}">
                                 <th>${jugador.posicion}</th>
-                                <th class="font-normal text-left ms-5">${jugador.equipo}</th>
+                                <th class="font-normal text-left ms-5 ${jugador.expulsado ? 'line-through' : ''}">${jugador.equipo}</th>
                                 <th class="bg-[#370068] text-white">${jugador.pts}</th>
                                 <th class="font-normal">${jugador.pj}</th>
                                 <th class="font-normal">${jugador.pg}</th>

@@ -403,19 +403,6 @@
             "grupoa": [
                 {
                     "posicion": 1,
-                    "equipo": "Cristo Rey",
-                    "pts": 19,
-                    "pj": 7,
-                    "pg": 6,
-                    "pe": 1,
-                    "pp": 0,
-                    "gf": 31,
-                    "gc": 15,
-                    "dg": "+16"
-                    
-                },
-                {
-                    "posicion": 2,
                     "equipo": "Mosqui F.C.",
                     "pts": 17,
                     "pj": 7,
@@ -428,7 +415,7 @@
                     
                 },
                 {
-                    "posicion": 3,
+                    "posicion": 2,
                     "equipo": "Pulpito F.C.",
                     "pts": 15,
                     "pj": 7,
@@ -441,7 +428,7 @@
                     
                 },
                 {
-                    "posicion": 4,
+                    "posicion": 3,
                     "equipo": "FlyFutbol",
                     "pts": 12,
                     "pj": 7,
@@ -454,20 +441,7 @@
                     
                 },
                 {
-                    "posicion": 5,
-                    "equipo": "M. Del Oeste",
-                    "pts": 12,
-                    "pj": 7,
-                    "pg": 4,
-                    "pe": 0,
-                    "pp": 3,
-                    "gf": 24,
-                    "gc": 31,
-                    "dg": "-7"
-                    
-                },
-                {
-                    "posicion": 6,
+                    "posicion": 4,
                     "equipo": "LHC",
                     "pts": 10,
                     "pj": 5,
@@ -480,7 +454,7 @@
                     
                 },
                 {
-                    "posicion": 7,
+                    "posicion": 5,
                     "equipo": "L. G. de Perón",
                     "pts": 9,
                     "pj": 7,
@@ -493,7 +467,7 @@
                     
                 },
                 {
-                    "posicion": 8,
+                    "posicion": 6,
                     "equipo": "H. y Timba",
                     "pts": 9,
                     "pj": 7,
@@ -506,7 +480,7 @@
                     
                 },
                 {
-                    "posicion": 9,
+                    "posicion": 7,
                     "equipo": "Poco y Nada",
                     "pts": 7,
                     "pj": 2,
@@ -520,7 +494,7 @@
                 }
                 ,
                 {
-                    "posicion": 10,
+                    "posicion": 8,
                     "equipo": "Rengos",
                     "pts": 3,
                     "pj": 7,
@@ -534,7 +508,7 @@
                 }
                 ,
                 {
-                    "posicion": 11,
+                    "posicion": 9,
                     "equipo": "Celtic",
                     "pts": 3,
                     "pj": 7,
@@ -544,6 +518,34 @@
                     "gf": 17,
                     "gc": 44,
                     "dg": "-27"
+                    
+                },
+                {
+                    "posicion": "X",
+                    "expulsado": true,
+                    "equipo": "Cristo Rey",
+                    "pts": 19,
+                    "pj": 7,
+                    "pg": 6,
+                    "pe": 1,
+                    "pp": 0,
+                    "gf": 31,
+                    "gc": 15,
+                    "dg": "+16"
+                    
+                },
+                {
+                    "posicion": "X",
+                    "expulsado": true,
+                    "equipo": "M. Del Oeste",
+                    "pts": 12,
+                    "pj": 7,
+                    "pg": 4,
+                    "pe": 0,
+                    "pp": 3,
+                    "gf": 24,
+                    "gc": 31,
+                    "dg": "-7"
                     
                 }
             ],
