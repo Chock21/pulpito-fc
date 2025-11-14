@@ -23,7 +23,7 @@
                     <a class="nav-link text-base border-e border-s border-gray-300 px-3 p-0" href="#PARTIDOS">PARTIDOS</a>
                     <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#JUGADORES">JUGADORES</a>
                     <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#ESTADISTICAS">ESTADISTICAS</a>
-                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#ESTADISTICAS">JMVS</a>
+                    <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#TABLA">TABLA</a>
                     <a class="nav-link text-base border-e border-gray-300 px-3 p-0" href="#GALERIA">GALERIA</a>
                     
                 </div>
@@ -44,7 +44,7 @@
                         <a class="my-2 text-white text-base text-end px-3 p-0" href="#PARTIDOS">PARTIDOS</a>
                         <a class="my-2 text-white text-base text-end px-3 p-0" href="#JUGADORES">JUGADORES</a>
                         <a class="my-2 text-white text-base text-end px-3 p-0" href="#ESTADISTICAS">ESTADISTICAS</a>
-                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#ESTADISTICAS">JMVS</a>
+                        <a class="my-2 text-white text-base text-end px-3 p-0" href="#TABLA">TABLA</a>
                         <a class="my-2 text-white text-base text-end px-3 p-0" href="#GALERIA">GALERIA</a>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <tbody>
                         <tr>
                             <th class="text-center">1</th>
-                            <td>Martin</td>
+                            <td>Chock</td>
                             <td class="text-center">4 </td>
                         </tr>
                         <tr>
@@ -416,35 +416,35 @@
                         grupoa = tabla.grupoa || tabla.grupA || [];
                         grupob = tabla.grupob || tabla.grupB || [];
                     }
-                    grupoa.forEach(jugador => {
+                    grupoa.forEach(equipo => {
                         grupoA.innerHTML += `
-                            <tr class="${jugador.expulsado ? 'bg-red-300' : ''} ${jugador.posicion <= 8 ? 'bg-green-100' : 'bg-red-200'}">
-                                <th>${jugador.posicion}</th>
-                                <th class="font-normal text-left">${jugador.equipo}</th>
-                                <th class="bg-[#370068] text-white">${jugador.pts}</th>
-                                <th class="font-normal">${jugador.pj}</th>
-                                <th class="font-normal">${jugador.pg}</th>
-                                <th class="font-normal">${jugador.pe}</th>
-                                <th class="font-normal">${jugador.pp}</th>
-                                <th class="font-normal hidden lg:table-cell">${jugador.gf}</th>
-                                <th class="font-normal hidden lg:table-cell">${jugador.gc}</th>
-                                <th class="font-normal">${jugador.dg}</th>
+                            <tr class="${equipo.expulsado ? 'bg-red-300' : ''} ${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
+                                <th>${equipo.posicion}</th>
+                                <th class="font-normal text-left ${equipo.expulsado ? 'line-through' : ''}">${equipo.nombre}</th>
+                                <th class="bg-[#370068] text-white">${equipo.pts}</th>
+                                <th class="font-normal">${equipo.pj}</th>
+                                <th class="font-normal">${equipo.pg}</th>
+                                <th class="font-normal">${equipo.pe}</th>
+                                <th class="font-normal">${equipo.pp}</th>
+                                <th class="font-normal hidden lg:table-cell">${equipo.gf}</th>
+                                <th class="font-normal hidden lg:table-cell">${equipo.gc}</th>
+                                <th class="font-normal">${equipo.dg}</th>
                             </tr>
                         `;
                     });
-                    grupob.forEach(jugador => {
+                    grupob.forEach(equipo => {
                         grupoB.innerHTML += `
-                            <tr class="${jugador.expulsado ? 'bg-red-200 line-through line-through' : ''} ${jugador.posicion <= 8 ? 'bg-green-100' : 'bg-red-200'}">
-                                <th>${jugador.posicion}</th>
-                                <th class="font-normal text-left ms-5 ${jugador.expulsado ? 'line-through' : ''}">${jugador.equipo}</th>
-                                <th class="bg-[#370068] text-white">${jugador.pts}</th>
-                                <th class="font-normal">${jugador.pj}</th>
-                                <th class="font-normal">${jugador.pg}</th>
-                                <th class="font-normal">${jugador.pe}</th>
-                                <th class="font-normal">${jugador.pp}</th>
-                                <th class="font-normal hidden lg:table-cell">${jugador.gf}</th>
-                                <th class="font-normal hidden lg:table-cell">${jugador.gc}</th>
-                                <th class="font-normal">${jugador.dg}</th>
+                            <tr class="${equipo.expulsado ? 'bg-red-200' : ''} ${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
+                                <th>${equipo.posicion}</th>
+                                <th class="font-normal text-left ms-5 ${equipo.expulsado ? 'line-through' : ''}">${equipo.nombre}</th>
+                                <th class="bg-[#370068] text-white">${equipo.pts}</th>
+                                <th class="font-normal">${equipo.pj}</th>
+                                <th class="font-normal">${equipo.pg}</th>
+                                <th class="font-normal">${equipo.pe}</th>
+                                <th class="font-normal">${equipo.pp}</th>
+                                <th class="font-normal hidden lg:table-cell">${equipo.gf}</th>
+                                <th class="font-normal hidden lg:table-cell">${equipo.gc}</th>
+                                <th class="font-normal">${equipo.dg}</th>
                             </tr>
                         `;
                     });

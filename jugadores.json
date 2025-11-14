@@ -120,7 +120,7 @@
             "fecha": "DOM. 2 NOV.",
             "formato": "Grupos",
             "rival": "Hacha y Timba",
-            "imagen_rival": "imgs/equipos/hacha-y-timba-escudo.png",
+            "imagen_rival": "imgs/nombres/hacha-y-timba-escudo.png",
             "resultado": "3 - 2",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
@@ -403,25 +403,38 @@
             "grupoa": [
                 {
                     "posicion": 1,
-                    "equipo": "Mosqui F.C.",
-                    "pts": 17,
-                    "pj": 7,
-                    "pg": 5,
+                    "nombre": "Mosqui F.C.",
+                    "pts": 20,
+                    "pj": 8,
+                    "pg": 6,
                     "pe": 2,
                     "pp": 0,
-                    "gf": 37,
-                    "gc": 12,
-                    "dg": "+25"
+                    "gf": 47,
+                    "gc": 15,
+                    "dg": "+32"
                     
                 },
                 {
                     "posicion": 2,
-                    "equipo": "Pulpito F.C.",
-                    "pts": 15,
-                    "pj": 7,
-                    "pg": 5,
+                    "nombre": "Pulpito F.C.",
+                    "pts": 18,
+                    "pj": 8,
+                    "pg": 6,
                     "pe": 0,
                     "pp": 2,
+                    "gf": 26,
+                    "gc": 16,
+                    "dg": "+10"
+                    
+                },
+                {
+                    "posicion": 3,
+                    "nombre": "FlyFutbol",
+                    "pts": 13,
+                    "pj": 8,
+                    "pg": 3,
+                    "pe": 4,
+                    "pp": 1,
                     "gf": 23,
                     "gc": 14,
                     "dg": "+9"
@@ -429,101 +442,86 @@
                 },
                 {
                     "posicion": 3,
-                    "equipo": "FlyFutbol",
+                    "nombre": "L. G. de Perón",
                     "pts": 12,
-                    "pj": 7,
-                    "pg": 3,
-                    "pe": 3,
-                    "pp": 1,
-                    "gf": 22,
-                    "gc": 13,
+                    "pj": 8,
+                    "pg": 4,
+                    "pe": 0,
+                    "pp": 4,
+                    "gf": 37,
+                    "gc": 28,
                     "dg": "+9"
                     
                 },
                 {
                     "posicion": 4,
-                    "equipo": "LHC",
+                    "nombre": "LHC",
                     "pts": 10,
-                    "pj": 5,
+                    "pj": 6,
                     "pg": 3,
                     "pe": 1,
-                    "pp": 1,
-                    "gf": 19,
-                    "gc": 7,
-                    "dg": "+12"
-                    
-                },
-                {
-                    "posicion": 5,
-                    "equipo": "L. G. de Perón",
-                    "pts": 9,
-                    "pj": 7,
-                    "pg": 3,
-                    "pe": 0,
-                    "pp": 4,
-                    "gf": 30,
-                    "gc": 25,
+                    "pp": 2,
+                    "gf": 22,
+                    "gc": 17,
                     "dg": "+5"
                     
                 },
                 {
                     "posicion": 6,
-                    "equipo": "H. y Timba",
+                    "nombre": "H. y Timba",
                     "pts": 9,
-                    "pj": 7,
+                    "pj": 8,
                     "pg": 3,
                     "pe": 0,
-                    "pp": 4,
-                    "gf": 16,
-                    "gc": 18,
-                    "dg": "-2"
+                    "pp": 5,
+                    "gf": 18,
+                    "gc": 21,
+                    "dg": "-3"
                     
                 },
                 {
                     "posicion": 7,
-                    "equipo": "Poco y Nada",
+                    "nombre": "Poco y Nada",
                     "pts": 7,
-                    "pj": 2,
-                    "pg": 1,
-                    "pe": 4,
-                    "pp": 0,
-                    "gf": 29,
-                    "gc": 24,
+                    "pj": 8,
+                    "pg": 2,
+                    "pe": 2,
+                    "pp": 4,
+                    "gf": 31,
+                    "gc": 26,
                     "dg": "+5"
                     
-                }
-                ,
+                },
                 {
                     "posicion": 8,
-                    "equipo": "Rengos",
-                    "pts": 3,
-                    "pj": 7,
+                    "nombre": "Celtic",
+                    "pts": 4,
+                    "pj": 8,
                     "pg": 1,
-                    "pe": 0,
+                    "pe": 1,
                     "pp": 6,
-                    "gf": 14,
-                    "gc": 23,
-                    "dg": "-9"
-                    
-                }
-                ,
-                {
-                    "posicion": 9,
-                    "equipo": "Celtic",
-                    "pts": 3,
-                    "pj": 7,
-                    "pg": 1,
-                    "pe": 0,
-                    "pp": 6,
-                    "gf": 17,
-                    "gc": 44,
+                    "gf": 19,
+                    "gc": 46,
                     "dg": "-27"
                     
                 },
                 {
-                    "posicion": "X",
+                    "posicion": 9,
+                    "nombre": "Rengos",
+                    "pts": 3,
+                    "pj": 7,
+                    "pg": 1,
+                    "pe": 0,
+                    "pp": 7,
+                    "gf": 17,
+                    "gc": 30,
+                    "dg": "-13"
+                    
+                },
+                {
+                    "posicion": "-",
                     "expulsado": true,
-                    "equipo": "Cristo Rey",
+                    "nombre": "Cristo Rey",
                     "pts": 19,
                     "pj": 7,
                     "pg": 6,
@@ -535,9 +533,9 @@
                     
                 },
                 {
-                    "posicion": "X",
+                    "posicion": "-",
                     "expulsado": true,
-                    "equipo": "M. Del Oeste",
+                    "nombre": "M. Del Oeste",
                     "pts": 12,
                     "pj": 7,
                     "pg": 4,
@@ -552,147 +550,147 @@
             "grupob": [
                 {
                     "posicion": 1,
-                    "equipo": "Branca",
-                    "pts": 18,
-                    "pj": 7,
-                    "pg": 6,
+                    "nombre": "Branca",
+                    "pts": 21,
+                    "pj": 8,
+                    "pg": 7,
                     "pe": 0,
                     "pp": 1,
-                    "gf": 28,
+                    "gf": 31,
                     "gc": 8,
-                    "dg": "+20"
+                    "dg": "+23"
                     
                 },
                 {
                     "posicion": 2,
-                    "equipo": "Malajunta",
+                    "nombre": "Malajunta",
                     "pts": 18,
-                    "pj": 7,
+                    "pj": 8,
                     "pg": 6,
                     "pe": 0,
-                    "pp": 1,
-                    "gf": 32,
-                    "gc": 17,
-                    "dg": "+15"
+                    "pp": 2,
+                    "gf": 34,
+                    "gc": 23,
+                    "dg": "+11"
                     
                 },
                 {
                     "posicion": 3,
-                    "equipo": "San. Catalina",
-                    "pts": 12,
-                    "pj": 5,
-                    "pg": 4,
+                    "nombre": "Gallito",
+                    "pts": 15,
+                    "pj": 8,
+                    "pg": 5,
                     "pe": 0,
-                    "pp": 1,
-                    "gf": 22,
-                    "gc": 16,
-                    "dg": "+6"
+                    "pp": 3,
+                    "gf": 27,
+                    "gc": 25,
+                    "dg": "+2"
                     
                 },
                 {
                     "posicion": 4,
-                    "equipo": "Gallito",
-                    "pts": 12,
-                    "pj": 7,
+                    "nombre": "Ruleteros.",
+                    "pts": 13,
+                    "pj": 8,
                     "pg": 4,
-                    "pe": 0,
+                    "pe": 1,
                     "pp": 3,
-                    "gf": 24,
-                    "gc": 25,
-                    "dg": "-1"
+                    "gf": 30,
+                    "gc": 19,
+                    "dg": "+11"
                     
                 },
                 {
                     "posicion": 5,
-                    "equipo": "Staiger",
-                    "pts": 11,
-                    "pj": 7,
-                    "pg": 3,
-                    "pe": 2,
-                    "pp": 2,
-                    "gf": 30,
-                    "gc": 23,
-                    "dg": "+7"
+                    "nombre": "Los Santos",
+                    "pts": 10,
+                    "pj": 8,
+                    "pg": 4,
+                    "pe": 1,
+                    "pp": 3,
+                    "gf": 27,
+                    "gc": 22,
+                    "dg": "+5"
                     
                 },
                 {
                     "posicion": 6,
-                    "equipo": "Los Santos",
-                    "pts": 10,
-                    "pj": 7,
-                    "pg": 3,
-                    "pe": 1,
-                    "pp": 3,
-                    "gf": 21,
-                    "gc": 20,
-                    "dg": "+1"
+                    "nombre": "San. Catalina",
+                    "pts": 12,
+                    "pj": 6,
+                    "pg": 4,
+                    "pe": 0,
+                    "pp": 2,
+                    "gf": 22,
+                    "gc": 19,
+                    "dg": "+3"
                     
                 },
                 {
                     "posicion": 7,
-                    "equipo": "Ruleteros.",
-                    "pts": 10,
-                    "pj": 7,
+                    "nombre": "Staiger",
+                    "pts": 11,
+                    "pj": 8,
                     "pg": 3,
-                    "pe": 1,
+                    "pe": 2,
                     "pp": 3,
-                    "gf": 19,
-                    "gc": 19,
-                    "dg": "0"
+                    "gf": 30,
+                    "gc": 26,
+                    "dg": "+4"
                     
                 },
                 {
                     "posicion": 8,
-                    "equipo": "Juan Ortega",
-                    "pts": 9,
-                    "pj": 7,
+                    "nombre": "Juan Ortega",
+                    "pts": 10,
+                    "pj": 8,
                     "pg": 3,
-                    "pe": 0,
+                    "pe": 1,
                     "pp": 4,
-                    "gf": 16,
-                    "gc": 19,
+                    "gf": 17,
+                    "gc": 20,
                     "dg": "-3"
                     
                 },
                 {
                     "posicion": 9,
-                    "equipo": "El Campito",
-                    "pts": 6,
-                    "pj": 7,
-                    "pg": 2,
+                    "nombre": "El Campito",
+                    "pts": 9,
+                    "pj": 8,
+                    "pg": 3,
                     "pe": 0,
                     "pp": 5,
-                    "gf": 20,
+                    "gf": 23,
                     "gc": 32,
-                    "dg": "-12"
+                    "dg": "-9"
                     
                 }
                 ,
                 {
                     "posicion": 10,
-                    "equipo": "Malvinas",
+                    "nombre": "Malvinas",
                     "pts": 4,
-                    "pj": 7,
+                    "pj": 8,
                     "pg": 1,
-                    "pe": 0,
-                    "pp": 5,
+                    "pe": 1,
+                    "pp": 6,
                     "gf": 13,
-                    "gc": 18,
-                    "dg": "-7"
+                    "gc": 21,
+                    "dg": "-8"
                     
                 }
                 ,
                 {
                     "posicion": 11,
-                    "equipo": "Los Buitres",
+                    "nombre": "Los Buitres",
                     "pts": 3,
-                    "pj": 7,
+                    "pj": 8,
                     "pg": 1,
                     "pe": 0,
-                    "pp": 6,
+                    "pp": 7,
                     "gf": 19,
-                    "gc": 53,
-                    "dg": "-34"
+                    "gc": 64,
+                    "dg": "-45"
                     
                 }
             ] 
