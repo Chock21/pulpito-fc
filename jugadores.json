@@ -325,7 +325,7 @@
             "imagen_rival": "imgs/equipos/rengos-escudo.png",
             "resultado": "2 - 1",
             "victoria_derrota": "victoria",
-            "dt": "Benjamin Borques",
+            "dt": "Benjamin Borque",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Wency", "numero": 2 },
