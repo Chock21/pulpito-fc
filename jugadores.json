@@ -403,28 +403,28 @@
             "grupoa": [
                 {
                     "posicion": 1,
-                    "nombre": "Mosqui F.C.",
-                    "pts": 20,
-                    "pj": 8,
-                    "pg": 6,
-                    "pe": 2,
-                    "pp": 0,
-                    "gf": 47,
-                    "gc": 15,
-                    "dg": "+32"
+                    "nombre": "Pulpito F.C.",
+                    "pts": 21,
+                    "pj": 9,
+                    "pg": 7,
+                    "pe": 0,
+                    "pp": 2,
+                    "gf": 28,
+                    "gc": 17,
+                    "dg": "+11"
                     
                 },
                 {
                     "posicion": 2,
-                    "nombre": "Pulpito F.C.",
-                    "pts": 18,
-                    "pj": 8,
+                    "nombre": "Mosqui F.C.",
+                    "pts": 20,
+                    "pj": 9,
                     "pg": 6,
-                    "pe": 0,
-                    "pp": 2,
-                    "gf": 26,
-                    "gc": 16,
-                    "dg": "+10"
+                    "pe": 2,
+                    "pp": 1,
+                    "gf": 48,
+                    "gc": 17,
+                    "dg": "+31"
                     
                 },
                 {
@@ -603,7 +603,7 @@
                 {
                     "posicion": 5,
                     "nombre": "Los Santos",
-                    "pts": 10,
+                    "pts": 13,
                     "pj": 8,
                     "pg": 4,
                     "pe": 1,
