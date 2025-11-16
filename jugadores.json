@@ -116,6 +116,31 @@
     ],
     "partidos": [
         {
+            "id": 12,
+            "fecha": "DOM. 2 NOV.",
+            "formato": "Grupos",
+            "rival": "Mosqui F.C.",
+            "imagen_rival": "imgs/equipos/mosqui-escudo.png",
+            "resultado": "2 - 1",
+            "victoria_derrota": "victoria",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Wency", "numero": 2 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Joaco", "numero": 20 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Joaco", "goles": 1 },
+                { "nombre": "Pancho", "goles": 1 },
+                { "nombre": "Massa", "jmv": true }
+            ]
+        },
+        {
             "id": 11,
             "fecha": "DOM. 2 NOV.",
             "formato": "Grupos",
