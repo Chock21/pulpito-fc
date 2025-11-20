@@ -1,4 +1,4 @@
-import PhotoSwipeLightbox from '/node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.js';
 
 async function ensureGalleryImageSizes(selector = '#galeria') {
     const gallery = document.querySelector(selector);
@@ -49,7 +49,7 @@ async function cargarGaleria() {
     const lightbox = new PhotoSwipeLightbox({
         gallery: '#galeria',
         children: 'a',
-        pswpModule: () => import('/node_modules/photoswipe/dist/photoswipe.esm.js')
+        pswpModule: () => import('/js/photoswipe.esm.js')
     });
     lightbox.init();
 }
