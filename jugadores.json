@@ -456,91 +456,91 @@
                     "posicion": 3,
                     "nombre": "FlyFutbol",
                     "pts": 13,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 3,
                     "pe": 4,
-                    "pp": 1,
-                    "gf": 23,
-                    "gc": 14,
-                    "dg": "+9"
-                    
-                },
-                {
-                    "posicion": 3,
-                    "nombre": "L. G. de Perón",
-                    "pts": 12,
-                    "pj": 8,
-                    "pg": 4,
-                    "pe": 0,
-                    "pp": 4,
-                    "gf": 37,
-                    "gc": 28,
-                    "dg": "+9"
+                    "pp": 2,
+                    "gf": 25,
+                    "gc": 17,
+                    "dg": "+8"
                     
                 },
                 {
                     "posicion": 4,
-                    "nombre": "LHC",
-                    "pts": 10,
-                    "pj": 6,
-                    "pg": 3,
-                    "pe": 1,
-                    "pp": 2,
-                    "gf": 22,
-                    "gc": 17,
-                    "dg": "+5"
+                    "nombre": "L. G. de Perón",
+                    "pts": 12,
+                    "pj": 9,
+                    "pg": 4,
+                    "pe": 0,
+                    "pp": 5,
+                    "gf": 39,
+                    "gc": 32,
+                    "dg": "+7"
+                    
+                },
+                {
+                    "posicion": 5,
+                    "nombre": "H. y Timba",
+                    "pts": 12,
+                    "pj": 9,
+                    "pg": 4,
+                    "pe": 0,
+                    "pp": 5,
+                    "gf": 21,
+                    "gc": 21,
+                    "dg": "0"
                     
                 },
                 {
                     "posicion": 6,
-                    "nombre": "H. y Timba",
-                    "pts": 9,
-                    "pj": 8,
+                    "nombre": "Poco y Nada",
+                    "pts": 10,
+                    "pj": 9,
                     "pg": 3,
-                    "pe": 0,
-                    "pp": 5,
-                    "gf": 18,
-                    "gc": 21,
-                    "dg": "-3"
+                    "pe": 2,
+                    "pp": 4,
+                    "gf": 37,
+                    "gc": 27,
+                    "dg": "+10"
                     
                 },
                 {
                     "posicion": 7,
-                    "nombre": "Poco y Nada",
-                    "pts": 7,
-                    "pj": 8,
-                    "pg": 2,
-                    "pe": 2,
-                    "pp": 4,
-                    "gf": 31,
-                    "gc": 26,
-                    "dg": "+5"
+                    "nombre": "LHC",
+                    "pts": 10,
+                    "pj": 7,
+                    "pg": 3,
+                    "pe": 1,
+                    "pp": 3,
+                    "gf": 22,
+                    "gc": 20,
+                    "dg": "+2"
                     
                 },
                 {
                     "posicion": 8,
                     "nombre": "Celtic",
-                    "pts": 4,
-                    "pj": 8,
-                    "pg": 1,
+                    "pts": 7,
+                    "pj": 9,
+                    "pg": 2,
                     "pe": 1,
                     "pp": 6,
-                    "gf": 19,
-                    "gc": 46,
-                    "dg": "-27"
+                    "gf": 22,
+                    "gc": 48,
+                    "dg": "-26"
                     
                 },
                 {
                     "posicion": 9,
                     "nombre": "Rengos",
                     "pts": 3,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 1,
                     "pe": 0,
-                    "pp": 7,
-                    "gf": 17,
-                    "gc": 30,
-                    "dg": "-13"
+                    "pp": 8,
+                    "gf": 18,
+                    "gc": 36,
+                    "dg": "-18"
                     
                 },
                 {
@@ -576,132 +576,132 @@
                 {
                     "posicion": 1,
                     "nombre": "Branca",
-                    "pts": 21,
-                    "pj": 8,
-                    "pg": 7,
+                    "pts": 24,
+                    "pj": 9,
+                    "pg": 8,
                     "pe": 0,
                     "pp": 1,
-                    "gf": 31,
-                    "gc": 8,
-                    "dg": "+23"
+                    "gf": 35,
+                    "gc": 10,
+                    "dg": "+25"
                     
                 },
                 {
                     "posicion": 2,
                     "nombre": "Malajunta",
-                    "pts": 18,
-                    "pj": 8,
-                    "pg": 6,
+                    "pts": 21,
+                    "pj": 9,
+                    "pg": 7,
                     "pe": 0,
                     "pp": 2,
-                    "gf": 34,
-                    "gc": 23,
-                    "dg": "+11"
+                    "gf": 38,
+                    "gc": 26,
+                    "dg": "+12"
                     
                 },
                 {
                     "posicion": 3,
                     "nombre": "Gallito",
-                    "pts": 15,
-                    "pj": 8,
-                    "pg": 5,
+                    "pts": 18,
+                    "pj": 9,
+                    "pg": 6,
                     "pe": 0,
                     "pp": 3,
-                    "gf": 27,
-                    "gc": 25,
-                    "dg": "+2"
+                    "gf": 31,
+                    "gc": 27,
+                    "dg": "+4"
                     
                 },
                 {
                     "posicion": 4,
-                    "nombre": "Ruleteros.",
-                    "pts": 13,
-                    "pj": 8,
-                    "pg": 4,
+                    "nombre": "Los Santos",
+                    "pts": 16,
+                    "pj": 9,
+                    "pg": 5,
                     "pe": 1,
                     "pp": 3,
-                    "gf": 30,
-                    "gc": 19,
-                    "dg": "+11"
+                    "gf": 33,
+                    "gc": 24,
+                    "dg": "+9"
                     
                 },
                 {
                     "posicion": 5,
-                    "nombre": "Los Santos",
-                    "pts": 13,
-                    "pj": 8,
-                    "pg": 4,
-                    "pe": 1,
-                    "pp": 3,
-                    "gf": 27,
-                    "gc": 22,
+                    "nombre": "San. Catalina",
+                    "pts": 15,
+                    "pj": 7,
+                    "pg": 5,
+                    "pe": 0,
+                    "pp": 2,
+                    "gf": 26,
+                    "gc": 21,
                     "dg": "+5"
                     
                 },
                 {
                     "posicion": 6,
-                    "nombre": "San. Catalina",
-                    "pts": 12,
-                    "pj": 6,
+                    "nombre": "Ruleteros.",
+                    "pts": 13,
+                    "pj": 9,
                     "pg": 4,
-                    "pe": 0,
-                    "pp": 2,
-                    "gf": 22,
-                    "gc": 19,
-                    "dg": "+3"
+                    "pe": 1,
+                    "pp": 4,
+                    "gf": 32,
+                    "gc": 23,
+                    "dg": "+9"
                     
                 },
                 {
                     "posicion": 7,
                     "nombre": "Staiger",
                     "pts": 11,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 3,
                     "pe": 2,
-                    "pp": 3,
-                    "gf": 30,
-                    "gc": 26,
-                    "dg": "+4"
+                    "pp": 4,
+                    "gf": 32,
+                    "gc": 30,
+                    "dg": "+2"
                     
                 },
                 {
                     "posicion": 8,
                     "nombre": "Juan Ortega",
                     "pts": 10,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 3,
                     "pe": 1,
-                    "pp": 4,
-                    "gf": 17,
-                    "gc": 20,
-                    "dg": "-3"
+                    "pp": 5,
+                    "gf": 20,
+                    "gc": 24,
+                    "dg": "-4"
                     
                 },
                 {
                     "posicion": 9,
                     "nombre": "El Campito",
                     "pts": 9,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 3,
                     "pe": 0,
-                    "pp": 5,
-                    "gf": 23,
-                    "gc": 32,
-                    "dg": "-9"
+                    "pp": 6,
+                    "gf": 25,
+                    "gc": 38,
+                    "dg": "-13"
                     
                 }
                 ,
                 {
                     "posicion": 10,
                     "nombre": "Malvinas",
-                    "pts": 4,
-                    "pj": 8,
-                    "pg": 1,
+                    "pts": 7,
+                    "pj": 9,
+                    "pg": 2,
                     "pe": 1,
                     "pp": 6,
-                    "gf": 13,
-                    "gc": 21,
-                    "dg": "-8"
+                    "gf": 20,
+                    "gc": 22,
+                    "dg": "-2"
                     
                 }
                 ,
@@ -709,13 +709,13 @@
                     "posicion": 11,
                     "nombre": "Los Buitres",
                     "pts": 3,
-                    "pj": 8,
+                    "pj": 9,
                     "pg": 1,
                     "pe": 0,
-                    "pp": 7,
-                    "gf": 19,
-                    "gc": 64,
-                    "dg": "-45"
+                    "pp": 8,
+                    "gf": 20,
+                    "gc": 71,
+                    "dg": "-51"
                     
                 }
             ] 
