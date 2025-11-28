@@ -27,7 +27,7 @@ async function cargarGaleria() {
 
     let galeria = [];
 
-    for (let i = 1; i <= 75; i++) {
+    for (let i = 1; i <= 85; i++) {
         galeria.push({
             img: `imgs/galeria/foto-${i}.jpg`
         });
