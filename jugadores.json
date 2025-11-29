@@ -456,285 +456,206 @@
                 {
                     "posicion": 1,
                     "nombre": "Pulpito F.C.",
-                    "pts": 24,
                     "pj": 10,
                     "pg": 8,
                     "pe": 0,
-                    "pp": 2,
                     "gf": 33,
-                    "gc": 21,
-                    "dg": "+12"
+                    "gc": 21
                 },
                 {
                     "posicion": 2,
                     "nombre": "Mosqui F.C.",
-                    "pts": 20,
-                    "pj": 9,
-                    "pg": 6,
+                    "pj": 10,
+                    "pg": 7,
                     "pe": 2,
-                    "pp": 1,
-                    "gf": 48,
-                    "gc": 17,
-                    "dg": "+31"
+                    "gf": 54,
+                    "gc": 18
                     
                 },
                 {
                     "posicion": 3,
                     "nombre": "FlyFutbol",
-                    "pts": 13,
                     "pj": 10,
                     "pg": 3,
                     "pe": 4,
-                    "pp": 3,
                     "gf": 29,
-                    "gc": 22,
-                    "dg": "+7"
+                    "gc": 22
                 },
                 {
                     "posicion": 4,
-                    "nombre": "L. G. de Perón",
-                    "pts": 12,
-                    "pj": 9,
+                    "nombre": "Celtic",
+                    "pj": 11,
                     "pg": 4,
-                    "pe": 0,
-                    "pp": 5,
-                    "gf": 39,
-                    "gc": 32,
-                    "dg": "+7"
+                    "pe": 1,
+                    "gf": 33,
+                    "gc": 53
                 },
                 {
                     "posicion": 5,
-                    "nombre": "H. y Timba",
-                    "pts": 12,
-                    "pj": 9,
+                    "nombre": "L. G. de Perón",
+                    "pj": 10,
                     "pg": 4,
                     "pe": 0,
-                    "pp": 5,
-                    "gf": 21,
-                    "gc": 21,
-                    "dg": "0"
+                    "gf": 41,
+                    "gc": 39
                 },
                 {
                     "posicion": 6,
-                    "nombre": "Poco y Nada",
-                    "pts": 10,
-                    "pj": 9,
-                    "pg": 3,
-                    "pe": 2,
-                    "pp": 4,
-                    "gf": 37,
-                    "gc": 27,
-                    "dg": "+10"
+                    "nombre": "H. y Timba",
+                    "pj": 10,
+                    "pg": 4,
+                    "pe": 0,
+                    "gf": 22,
+                    "gc": 27
                 },
                 {
                     "posicion": 7,
-                    "nombre": "Celtic",
-                    "pts": 7,
-                    "pj": 9,
-                    "pg": 2,
-                    "pe": 1,
-                    "pp": 6,
-                    "gf": 22,
-                    "gc": 48,
-                    "dg": "-26"
+                    "nombre": "Poco y Nada",
+                    "pj": 10,
+                    "pg": 3,
+                    "pe": 2,
+                    "gf": 39,
+                    "gc": 30
                 },
                 {
                     "posicion": 8,
                     "nombre": "Rengos",
-                    "pts": 3,
-                    "pj": 9,
+                    "pj": 10,
                     "pg": 1,
                     "pe": 0,
-                    "pp": 8,
-                    "gf": 18,
-                    "gc": 36,
-                    "dg": "-18"
+                    "gf": 20,
+                    "gc": 42
                 },
                 {
                     "posicion": "-",
                     "expulsado": true,
                     "nombre": "Cristo Rey",
-                    "pts": 19,
                     "pj": 7,
                     "pg": 6,
                     "pe": 1,
-                    "pp": 0,
                     "gf": 31,
-                    "gc": 15,
-                    "dg": "+16"
+                    "gc": 15
                 },
                 {
                     "posicion": "-",
                     "expulsado": true,
                     "nombre": "M. Del Oeste",
-                    "pts": 12,
                     "pj": 7,
                     "pg": 4,
                     "pe": 0,
-                    "pp": 3,
                     "gf": 24,
-                    "gc": 31,
-                    "dg": "-7"
+                    "gc": 31
                 },
                 {
                     "posicion": "-",
                     "expulsado": true,
                     "nombre": "LHC",
-                    "pts": 10,
                     "pj": 7,
                     "pg": 3,
                     "pe": 1,
-                    "pp": 3,
                     "gf": 22,
-                    "gc": 20,
-                    "dg": "+2"   
+                    "gc": 20
                 }
             ],
             "grupob": [
                 {
                     "posicion": 1,
                     "nombre": "Branca",
-                    "pts": 24,
-                    "pj": 9,
+                    "pj": 10,
                     "pg": 8,
                     "pe": 0,
-                    "pp": 1,
-                    "gf": 35,
-                    "gc": 10,
-                    "dg": "+25"
-                    
+                    "gf": 38,
+                    "gc": 14
                 },
                 {
                     "posicion": 2,
                     "nombre": "Malajunta",
-                    "pts": 21,
-                    "pj": 9,
-                    "pg": 7,
+                    "pj": 10,
+                    "pg": 8,
                     "pe": 0,
-                    "pp": 2,
-                    "gf": 38,
-                    "gc": 26,
-                    "dg": "+12"
-                    
+                    "gf": 40,
+                    "gc": 26
                 },
                 {
                     "posicion": 3,
-                    "nombre": "Gallito",
-                    "pts": 18,
-                    "pj": 9,
+                    "nombre": "Los Santos",
+                    "pj": 10,
                     "pg": 6,
-                    "pe": 0,
-                    "pp": 3,
-                    "gf": 31,
-                    "gc": 27,
-                    "dg": "+4"
-                    
+                    "pe": 1,
+                    "gf": 38,
+                    "gc": 27
                 },
                 {
                     "posicion": 4,
-                    "nombre": "Los Santos",
-                    "pts": 16,
-                    "pj": 9,
-                    "pg": 5,
-                    "pe": 1,
-                    "pp": 3,
-                    "gf": 33,
-                    "gc": 24,
-                    "dg": "+9"
-                    
+                    "nombre": "San. Catalina",
+                    "pj": 8,
+                    "pg": 6,
+                    "pe": 0,
+                    "gf": 35,
+                    "gc": 23
                 },
                 {
                     "posicion": 5,
-                    "nombre": "San. Catalina",
-                    "pts": 15,
-                    "pj": 7,
-                    "pg": 5,
+                    "nombre": "Gallito",
+                    "pj": 10,
+                    "pg": 6,
                     "pe": 0,
-                    "pp": 2,
-                    "gf": 26,
-                    "gc": 21,
-                    "dg": "+5"
-                    
+                    "gf": 31,
+                    "gc": 29
                 },
                 {
                     "posicion": 6,
-                    "nombre": "Ruleteros.",
-                    "pts": 13,
-                    "pj": 9,
+                    "nombre": "Staiger",
+                    "pj": 10,
                     "pg": 4,
-                    "pe": 1,
-                    "pp": 4,
-                    "gf": 32,
-                    "gc": 23,
-                    "dg": "+9"
-                    
+                    "pe": 2,
+                    "gf": 35,
+                    "gc": 32
                 },
                 {
                     "posicion": 7,
-                    "nombre": "Staiger",
-                    "pts": 11,
-                    "pj": 9,
-                    "pg": 3,
-                    "pe": 2,
-                    "pp": 4,
-                    "gf": 32,
-                    "gc": 30,
-                    "dg": "+2"
-                    
+                    "nombre": "Ruleteros.",
+                    "pj": 10,
+                    "pg": 4,
+                    "pe": 1,
+                    "gf": 35,
+                    "gc": 28
                 },
                 {
                     "posicion": 8,
-                    "nombre": "Juan Ortega",
-                    "pts": 10,
-                    "pj": 9,
-                    "pg": 3,
-                    "pe": 1,
-                    "pp": 5,
-                    "gf": 20,
-                    "gc": 24,
-                    "dg": "-4"
-                    
+                    "nombre": "El Campito",
+                    "pj": 10,
+                    "pg": 4,
+                    "pe": 0,
+                    "gf": 29,
+                    "gc": 40
                 },
                 {
                     "posicion": 9,
-                    "nombre": "El Campito",
-                    "pts": 9,
-                    "pj": 9,
+                    "nombre": "Malvinas",
+                    "pj": 10,
                     "pg": 3,
-                    "pe": 0,
-                    "pp": 6,
-                    "gf": 25,
-                    "gc": 38,
-                    "dg": "-13"
-                    
-                }
-                ,
+                    "pe": 1,
+                    "gf": 26,
+                    "gc": 24
+                },
                 {
                     "posicion": 10,
-                    "nombre": "Malvinas",
-                    "pts": 7,
-                    "pj": 9,
-                    "pg": 2,
+                    "nombre": "Juan Ortega",
+                    "pj": 10,
+                    "pg": 3,
                     "pe": 1,
-                    "pp": 6,
-                    "gf": 20,
-                    "gc": 22,
-                    "dg": "-2"
-                    
-                }
-                ,
+                    "gf": 22,
+                    "gc": 33
+                },
                 {
                     "posicion": 11,
                     "nombre": "Los Buitres",
-                    "pts": 3,
-                    "pj": 9,
+                    "pj": 10,
                     "pg": 1,
                     "pe": 0,
-                    "pp": 8,
-                    "gf": 20,
-                    "gc": 71,
-                    "dg": "-51"
-                    
+                    "gf": 22,
+                    "gc": 75
                 }
             ] 
         }   

@@ -149,14 +149,14 @@ fetch('jugadores.json')
                 <tr class="${equipo.expulsado ? 'bg-red-300' : ''} ${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
                     <th>${equipo.posicion}</th>
                     <th class="font-normal text-left ${equipo.expulsado ? 'line-through' : ''}">${equipo.nombre}</th>
-                    <th class="bg-[#370068] text-white">${equipo.pts}</th>
+                    <th class="bg-[#370068] text-white">${3 * equipo.pg + equipo.pe}</th>
                     <th class="font-normal">${equipo.pj}</th>
                     <th class="font-normal">${equipo.pg}</th>
                     <th class="font-normal">${equipo.pe}</th>
-                    <th class="font-normal">${equipo.pp}</th>
+                    <th class="font-normal">${equipo.pj - equipo.pg - equipo.pe}</th>
                     <th class="font-normal hidden lg:table-cell">${equipo.gf}</th>
                     <th class="font-normal hidden lg:table-cell">${equipo.gc}</th>
-                    <th class="font-normal">${equipo.dg}</th>
+                    <th class="font-normal">${(equipo.gf - equipo.gc) > 0 ? '+' : ''}${equipo.gf - equipo.gc}</th>
                 </tr>
             `;
         });
@@ -165,14 +165,14 @@ fetch('jugadores.json')
                 <tr class="${equipo.expulsado ? 'bg-red-200' : ''} ${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
                     <th>${equipo.posicion}</th>
                     <th class="font-normal text-left ms-5 ${equipo.expulsado ? 'line-through' : ''}">${equipo.nombre}</th>
-                    <th class="bg-[#370068] text-white">${equipo.pts}</th>
+                    <th class="bg-[#370068] text-white">${3 * equipo.pg + equipo.pe}</th>
                     <th class="font-normal">${equipo.pj}</th>
                     <th class="font-normal">${equipo.pg}</th>
                     <th class="font-normal">${equipo.pe}</th>
-                    <th class="font-normal">${equipo.pp}</th>
+                    <th class="font-normal">${equipo.pj - equipo.pg - equipo.pe}</th>
                     <th class="font-normal hidden lg:table-cell">${equipo.gf}</th>
                     <th class="font-normal hidden lg:table-cell">${equipo.gc}</th>
-                    <th class="font-normal">${equipo.dg}</th>
+                    <th class="font-normal">${(equipo.gf - equipo.gc) > 0 ? '+' : ''}${equipo.gf - equipo.gc}</th>
                 </tr>
             `;
         });
