@@ -394,7 +394,7 @@
         },
         {
             "id": 3,
-            "fecha": "8/23/2025",
+            "fecha": "8/24/2025",
             "formato": "Grupos",
             "rival": "Rengos",
             "imagen_rival": "imgs/equipos/rengos-escudo.png",
@@ -421,7 +421,7 @@
         },
         {
             "id": 2,
-            "fecha": "8/16/2025",
+            "fecha": "8/17/2025",
             "formato": "Amistoso",
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
@@ -446,7 +446,7 @@
         },
         {
             "id": 1,
-            "fecha": "8/9/2025",
+            "fecha": "8/10/2025",
             "formato": "Amistoso",
             "rival": "Malvinas",
             "imagen_rival": "imgs/equipos/malvinas-escudo.png",
