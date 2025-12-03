@@ -116,6 +116,29 @@
     ],
     "partidos": [
         {
+            "id": 14,
+            "fecha": "Dom. 30 Nov.",
+            "formato": "Grupos",
+            "rival": "Ruleteros",
+            "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
+            "resultado": "1 - 3",
+            "victoria_derrota": "derrota",
+            "dt": "No se presento",
+            "convocados": [
+                { "nombre": "Massa", "numero": 1 },
+                { "nombre": "Pelu", "numero": 5 },
+                { "nombre": "Broyi", "numero": 6 },
+                { "nombre": "Luchi", "numero": 7 },
+                { "nombre": "Funa", "numero": 9 },
+                { "nombre": "Chock", "numero": 10 },
+                { "nombre": "Mati", "numero": 13 },
+                { "nombre": "Pancho", "numero": 99 }
+            ],
+            "goleadores": [
+                { "nombre": "Pelu", "goles": 1 }
+            ]
+        },
+        {
             "id": 13,
             "fecha": "DOM. 23 NOV.",
             "formato": "Grupos",
@@ -123,7 +146,7 @@
             "imagen_rival": "imgs/equipos/flyfutbol-escudo.png",
             "resultado": "5 - 4",
             "victoria_derrota": "victoria",
-            "dt": "No se presento",
+            "dt": "Benjamin Borque",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Broyi", "numero": 6 },
@@ -456,75 +479,75 @@
                 {
                     "posicion": 1,
                     "nombre": "Pulpito F.C.",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 8,
                     "pe": 0,
-                    "gf": 33,
-                    "gc": 21
+                    "gf": 34,
+                    "gc": 24
                 },
                 {
                     "posicion": 2,
                     "nombre": "Mosqui F.C.",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 7,
                     "pe": 2,
-                    "gf": 54,
-                    "gc": 18
+                    "gf": 55,
+                    "gc": 20
                     
                 },
                 {
                     "posicion": 3,
                     "nombre": "FlyFutbol",
-                    "pj": 10,
-                    "pg": 3,
+                    "pj": 11,
+                    "pg": 4,
                     "pe": 4,
-                    "gf": 29,
-                    "gc": 22
+                    "gf": 34,
+                    "gc": 25
                 },
                 {
                     "posicion": 4,
                     "nombre": "Celtic",
-                    "pj": 11,
-                    "pg": 4,
+                    "pj": 12,
+                    "pg": 5,
                     "pe": 1,
-                    "gf": 33,
-                    "gc": 53
+                    "gf": 35,
+                    "gc": 54
                 },
                 {
                     "posicion": 5,
-                    "nombre": "L. G. de Perón",
-                    "pj": 10,
-                    "pg": 4,
+                    "nombre": "H. y Timba",
+                    "pj": 11,
+                    "pg": 5,
                     "pe": 0,
-                    "gf": 41,
-                    "gc": 39
+                    "gf": 25,
+                    "gc": 28
                 },
                 {
                     "posicion": 6,
-                    "nombre": "H. y Timba",
-                    "pj": 10,
+                    "nombre": "L. G. de Perón",
+                    "pj": 11,
                     "pg": 4,
                     "pe": 0,
-                    "gf": 22,
-                    "gc": 27
+                    "gf": 43,
+                    "gc": 44
                 },
                 {
                     "posicion": 7,
                     "nombre": "Poco y Nada",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 3,
-                    "pe": 2,
-                    "gf": 39,
-                    "gc": 30
+                    "pe": 3,
+                    "gf": 22,
+                    "gc": 32
                 },
                 {
                     "posicion": 8,
                     "nombre": "Rengos",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 1,
                     "pe": 0,
-                    "gf": 20,
-                    "gc": 42
+                    "gf": 21,
+                    "gc": 45
                 },
                 {
                     "posicion": "-",
@@ -560,102 +583,102 @@
             "grupob": [
                 {
                     "posicion": 1,
-                    "nombre": "Branca",
-                    "pj": 10,
-                    "pg": 8,
+                    "nombre": "Malajunta",
+                    "pj": 11,
+                    "pg": 9,
                     "pe": 0,
-                    "gf": 38,
-                    "gc": 14
+                    "gf": 47,
+                    "gc": 28
                 },
                 {
                     "posicion": 2,
-                    "nombre": "Malajunta",
-                    "pj": 10,
+                    "nombre": "Branca",
+                    "pj": 11,
                     "pg": 8,
                     "pe": 0,
-                    "gf": 40,
-                    "gc": 26
+                    "gf": 39,
+                    "gc": 17
                 },
                 {
                     "posicion": 3,
                     "nombre": "Los Santos",
-                    "pj": 10,
-                    "pg": 6,
+                    "pj": 11,
+                    "pg": 7,
                     "pe": 1,
-                    "gf": 38,
-                    "gc": 27
+                    "gf": 46,
+                    "gc": 30
                 },
                 {
                     "posicion": 4,
                     "nombre": "San. Catalina",
-                    "pj": 8,
-                    "pg": 6,
-                    "pe": 0,
-                    "gf": 35,
-                    "gc": 23
+                    "pj": 10,
+                    "pg": 7,
+                    "pe": 1,
+                    "gf": 44,
+                    "gc": 29
                 },
                 {
                     "posicion": 5,
                     "nombre": "Gallito",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 6,
                     "pe": 0,
-                    "gf": 31,
-                    "gc": 29
+                    "gf": 33,
+                    "gc": 35
                 },
                 {
                     "posicion": 6,
-                    "nombre": "Staiger",
-                    "pj": 10,
-                    "pg": 4,
-                    "pe": 2,
-                    "gf": 35,
-                    "gc": 32
+                    "nombre": "Ruleteros",
+                    "pj": 11,
+                    "pg": 5,
+                    "pe": 1,
+                    "gf": 38,
+                    "gc": 29
                 },
                 {
                     "posicion": 7,
-                    "nombre": "Ruleteros.",
-                    "pj": 10,
-                    "pg": 4,
-                    "pe": 1,
+                    "nombre": "El Campito",
+                    "pj": 11,
+                    "pg": 5,
+                    "pe": 0,
                     "gf": 35,
-                    "gc": 28
+                    "gc": 42
                 },
                 {
                     "posicion": 8,
-                    "nombre": "El Campito",
-                    "pj": 10,
+                    "nombre": "Staiger",
+                    "pj": 11,
                     "pg": 4,
-                    "pe": 0,
-                    "gf": 29,
-                    "gc": 40
+                    "pe": 2,
+                    "gf": 37,
+                    "gc": 39
                 },
                 {
                     "posicion": 9,
                     "nombre": "Malvinas",
-                    "pj": 10,
-                    "pg": 3,
+                    "pj": 11,
+                    "pg": 4,
                     "pe": 1,
-                    "gf": 26,
-                    "gc": 24
+                    "gf": 29,
+                    "gc": 25
                 },
                 {
                     "posicion": 10,
                     "nombre": "Juan Ortega",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 3,
                     "pe": 1,
-                    "gf": 22,
-                    "gc": 33
+                    "gf": 25,
+                    "gc": 41
                 },
                 {
                     "posicion": 11,
                     "nombre": "Los Buitres",
-                    "pj": 10,
+                    "pj": 11,
                     "pg": 1,
                     "pe": 0,
-                    "gf": 22,
-                    "gc": 75
+                    "gf": 26,
+                    "gc": 82
                 }
             ] 
         }   

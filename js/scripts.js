@@ -48,8 +48,12 @@ fetch('jugadores.json')
                                     <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" class="mx-2 w-10 h-10">
                                     <p class="my-2 text-sm font-bold text-lg">Pulpito F.C.</p>
                                 </div>
-
-                                <p class="px-2 py-1 my-1 mx-2 text-base font-bold text-white resultado ${vod}">${resultado}</p>
+                                
+                                <div class="flex flex-col gap-2">
+                                    <p class="text-gray-500 text-sm">${fecha}</p>
+                                    <p class="px-2 py-1 my-1 mx-2 text-base font-bold text-white resultado ${vod}">${resultado}</p>
+                                    <p class="text-gray-500 text-sm">${formato}</p>
+                                </div>
 
                                 <div class="flex flex-col items-center w-1/3">
                                     <img src="${imagen_rival}" alt="escudo-rival" class="mx-2 w-10 h-10">
@@ -62,8 +66,8 @@ fetch('jugadores.json')
                         </button>
                     </div>
                     <div id="accordion-body-${id}" class="hidden">
-                        <div class="flex flex-col md:flex-row p-4 bg-gray-100 border-b border-gray-400">
-                            <div class="md:border-r border-b md:border-b-0 border-gray-400 w-full md:w-1/3 pr-3">
+                        <div class="flex flex-col md:flex-row gap-4 p-4 bg-gray-100 border-b border-gray-300">
+                            <div class="w-full md:w-1/3 pr-3 bg-white p-4 rounded-xl">
                                 <p class="pb-3"><strong>DT: </strong>${dt}</p>
                                 <p class="text-center border-t border-b border-gray-400 py-2 mb-3">Convocados</p>
                                 <div class="flex w-full pb-2">
@@ -75,8 +79,11 @@ fetch('jugadores.json')
                                     </div>
                                 </div>
                             </div>
-                            <div class="ps-3 pt-4 md:pt-0">
+                            <div class="w-full md:w-1/3 p-4 bg-white rounded-xl">
                                 ${p.goleadores && p.goleadores.length > 0 ? p.goleadores.map(g => `<p class="flex items-center gap-1">${g.nombre} ${'<img src="imgs/football.png" alt="football" style="width: 14px; height: 14px;" /> '.repeat(g.goles || 0)} ${g.jmv ? '<strong class="border px-1">JMV</strong>' : ''}</p>`).join('') : '<p>No hay goles registrados</p>'}
+                            </div>
+                            <div class="flex items-center justify-center w-full md:w-1/3 p-4 bg-white rounded-xl">
+                                <p>Video</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +153,7 @@ fetch('jugadores.json')
         }
         grupoa.forEach(equipo => {
             grupoA.innerHTML += `
-                <tr class="${equipo.expulsado ? 'bg-red-300' : ''} ${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
+                <tr class="${equipo.posicion <= 8 ? 'bg-green-100' : 'bg-red-100'}">
                     <th>${equipo.posicion}</th>
                     <th class="font-normal text-left ${equipo.expulsado ? 'line-through' : ''}">${equipo.nombre}</th>
                     <th class="bg-[#370068] text-white">${3 * equipo.pg + equipo.pe}</th>

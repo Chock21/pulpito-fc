@@ -70,8 +70,7 @@ h1 {
 
 /*ESTADISTICAS*/
 
-table, th, td {
-    border: #C19300 2px solid;
+th, td {
     padding: 5px;
 }
 
