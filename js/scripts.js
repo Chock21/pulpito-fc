@@ -51,7 +51,7 @@ fetch('jugadores.json')
                                 
                                 <div class="flex flex-col items-center gap-2">
                                     <p class="text-gray-500 text-sm">${fecha}</p>
-                                    <p class="w-[80px] px-2 py-1 text-base font-bold text-white resultado ${vod}">${resultado}</p>
+                                    <p class="w-[60px] md:w-[80px] px-2 py-1 text-base font-bold text-white resultado ${vod}">${resultado}</p>
                                     <p class="text-gray-500 text-sm">${formato}</p>
                                 </div>
 

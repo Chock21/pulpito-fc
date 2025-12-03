@@ -117,7 +117,7 @@
     "partidos": [
         {
             "id": 14,
-            "fecha": "Dom. 30 Nov.",
+            "fecha": "11/30/2025",
             "formato": "Grupos",
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
@@ -140,7 +140,7 @@
         },
         {
             "id": 13,
-            "fecha": "DOM. 23 NOV.",
+            "fecha": "11/23/2025",
             "formato": "Grupos",
             "rival": "FlyFutbol",
             "imagen_rival": "imgs/equipos/flyfutbol-escudo.png",
@@ -167,7 +167,7 @@
         },
         {
             "id": 12,
-            "fecha": "DOM. 2 NOV.",
+            "fecha": "11/16/2025",
             "formato": "Grupos",
             "rival": "Mosqui F.C.",
             "imagen_rival": "imgs/equipos/mosqui-escudo.png",
@@ -192,7 +192,7 @@
         },
         {
             "id": 11,
-            "fecha": "DOM. 16 NOV.",
+            "fecha": "11/9/2025",
             "formato": "Grupos",
             "rival": "Hacha y Timba",
             "imagen_rival": "imgs/equipos/hacha-y-timba-escudo.png",
@@ -217,7 +217,7 @@
         },
         {
             "id": 10,
-            "fecha": "DOM. 2 NOV.",
+            "fecha": "11/2/2025",
             "formato": "Grupos",
             "rival": "Poco y Nada",
             "imagen_rival": "imgs/equipos/poco-y-nada-escudo.png",
@@ -242,7 +242,7 @@
         },
         {
             "id": 9,
-            "fecha": "DOM. 5 OCT.",
+            "fecha": "10/26/2025",
             "formato": "Grupos",
             "rival": "LHC",
             "imagen_rival": "imgs/equipos/lhc-escudo.png",
@@ -267,7 +267,7 @@
         },
         {
             "id": 8,
-            "fecha": "DOM. 5 OCT.",
+            "fecha": "10/5/2025",
             "formato": "Grupos",
             "rival": "Mercenarios F.C.",
             "imagen_rival": "imgs/equipos/mercenarios-escudo.png",
@@ -293,7 +293,7 @@
         },
         {
             "id": 7,
-            "fecha": "DOM. 28 SEPT.",
+            "fecha": "9/28/2025",
             "formato": "Grupos",
             "rival": "Los Guerreros de Perón",
             "imagen_rival": "imgs/equipos/guerreros-escudo.png",
@@ -318,7 +318,7 @@
         },
         {
             "id": 6,
-            "fecha": "DOM. 21 SEPT.",
+            "fecha": "9/21/2025",
             "formato": "Grupos",
             "rival": "Cristo Rey",
             "imagen_rival": "imgs/equipos/cristo-escudo.png",
@@ -342,7 +342,7 @@
         },
         {
             "id": 5,
-            "fecha": "DOM. 14 SEPT.",
+            "fecha": "9/14/2025",
             "formato": "Grupos",
             "rival": "F.C. Napolitana",
             "imagen_rival": "imgs/equipos/napolitana-escudo.png",
@@ -367,7 +367,7 @@
         },
         {
             "id": 4,
-            "fecha": "SAB. 6 SEPT.",
+            "fecha": "9/6/2025",
             "formato": "Amistoso",
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
@@ -394,7 +394,7 @@
         },
         {
             "id": 3,
-            "fecha": "DOM. 23 AGOS.",
+            "fecha": "8/23/2025",
             "formato": "Grupos",
             "rival": "Rengos",
             "imagen_rival": "imgs/equipos/rengos-escudo.png",
@@ -421,7 +421,7 @@
         },
         {
             "id": 2,
-            "fecha": "DOM. 16 AGOS.",
+            "fecha": "8/16/2025",
             "formato": "Amistoso",
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
@@ -446,7 +446,7 @@
         },
         {
             "id": 1,
-            "fecha": "DOM. 9 AGOS.",
+            "fecha": "8/9/2025",
             "formato": "Amistoso",
             "rival": "Malvinas",
             "imagen_rival": "imgs/equipos/malvinas-escudo.png",
