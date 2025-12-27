@@ -84,7 +84,7 @@ fetch('jugadores.json')
                                 ${p.goleadores && p.goleadores.length > 0 ? p.goleadores.map(g => `<p class="flex items-center gap-1">${g.nombre} ${'<img src="imgs/football.png" alt="football" style="width: 14px; height: 14px;" /> '.repeat(g.goles || 0)} ${g.jmv ? '<strong class="border px-1">JMV</strong>' : ''}</p>`).join('') : '<p>No hay goles registrados</p>'}
                             </div>
                             <div class="flex items-center justify-center w-full md:w-1/3 p-4 bg-white rounded-xl">
-                                <iframe class="h-[90%] w-[90%]" src="${video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe class="h-[100%] w-[100%] p-3 rounded-xl" src="${video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
