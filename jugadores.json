@@ -114,6 +114,135 @@
         }
 
     ],
+    "playoffs": [
+        {
+            "ronda": "Octavos",
+            "partidos": [
+                {
+                    "e1": "Pulpito F.C.",
+                    "g1": "4 (4)",
+                    "e2": "Staiger",
+                    "g2": "4 (1)",
+                    "winner": "Pulpito F.C."
+                },
+                {
+                    "e1": "Celtic",
+                    "g1": "2",
+                    "e2": "Gallito F.C.",
+                    "g2": "0",
+                    "winner": "Celtic"
+                },
+                {
+                    "e1": "FlyFutbol",
+                    "g1": "2",
+                    "e2": "Ruleteros",
+                    "g2": "3",
+                    "winner": "Ruleteros"
+                },
+                {
+                    "e1": "Branca F.C.",
+                    "g1": "5",
+                    "e2": "Los G. de Perón",
+                    "g2": "2",
+                    "winner": "Branca F.C."
+                },
+                {
+                    "e1": "Los P. de Mala.",
+                    "g1": "3",
+                    "e2": "Rengos F.C.",
+                    "g2": "1",
+                    "winner": "Los P. de Mala."
+                },
+                {
+                    "e1": "S. Catalana",
+                    "g1": "0",
+                    "e2": "Hacha y Timba",
+                    "g2": "5",
+                    "winner": "Hacha y Timba"
+                },
+                {
+                    "e1": "Los Santos F.C.",
+                    "g1": "2",
+                    "e2": "Poco y Nada",
+                    "g2": "1",
+                    "winner": "Los Santos F.C."
+                },
+                {
+                    "e1": "Mosqui F.C.",
+                    "g1": "6",
+                    "e2": "El Campito",
+                    "g2": "1",
+                    "winner": "Mosqui F.C."
+                }
+            ]
+            
+        },
+        {
+            "ronda": "Cuartos",
+            "partidos": [
+                {
+                    "e1": "Pulpito F.C.",
+                    "g1": "4",
+                    "e2": "Celtic",
+                    "g2": "3",
+                    "winner": "Pulpito F.C."
+                },
+                {
+                    "e1": "Ruleteros",
+                    "g1": "0",
+                    "e2": "Branca F.C.",
+                    "g2": "1",
+                    "winner": "Branca F.C"
+                },
+                {
+                    "e1": "Los P. de Mala.",
+                    "g1": "1",
+                    "e2": "Hacha y Timba",
+                    "g2": "0",
+                    "winner": "Los P. de Mala."
+                },
+                {
+                    "e1": "Los Santos F.C.",
+                    "g1": "0",
+                    "e2": "Mosqui F.C.",
+                    "g2": "1",
+                    "winner": "Mosqui F.C."
+                }
+            ]
+        },
+        {
+            "ronda": "Semis",
+            "partidos": [
+                {
+                    "e1": "Pulpito F.C.",
+                    "g1": "2",
+                    "e2": "Branca F.C.",
+                    "g2": "3",
+                    "winner": "Branca F.C"
+                },
+                {
+                    "e1": "Los P. de Mala.",
+                    "g1": "1",
+                    "e2": "Mosqui F.C.",
+                    "g2": "0",
+                    "winner": "Los P. de Mala."
+                }
+            ]
+        },
+        {
+            "ronda": "Final",
+            "partidos": [
+                {
+                    "e1": "Branca F.C.",
+                    "g1": "1",
+                    "e2": "Los G. de Perón",
+                    "g2": "0",
+                    "winner": "Branca F.C"
+                }
+            ]
+        }
+
+    ],
     "partidos": [
         {
             "id": 14,

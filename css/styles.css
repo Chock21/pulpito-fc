@@ -74,6 +74,50 @@ th, td {
     padding: 5px;
 }
 
+/*PLAYOFFS*/
+
+.playoff_container {
+    box-sizing: border-box;
+}
+
+.grupo {
+    position: relative;
+}
+
+.izquierda, .derecha {
+    position: relative;
+}
+
+.grupo:after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    top: 33px;
+    bottom: 33px;
+    right: 0;
+    background-color: #370068;
+}
+
+.izquierda:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -14px;
+    width: 13px;
+    height: 3px;
+    background-color: #370068;
+}
+
+.derecha:after {
+    content: '';
+    position: absolute;
+    bottom: 27px;
+    right: -13px;
+    width: 13px;
+    height: 3px;
+    background-color: #370068;
+}
+
 /*PARTIDOS*/
 
 .accordion-body {
@@ -84,7 +128,6 @@ th, td {
 }
 
 .accordion-body.open {
-  /* max-height alto suficiente para el contenido; si necesitas exactitud, ver la alternativa con JS basado en scrollHeight */
   max-height: 1200px;
   opacity: 1;
 }

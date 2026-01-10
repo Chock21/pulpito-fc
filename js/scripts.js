@@ -24,6 +24,111 @@ fetch('jugadores.json')
                 `;
             });
         });
+        
+//Playoffs
+fetch('jugadores.json')
+    .then(response => response.json())
+    .then(data => {
+        const containers = {
+            octavos: document.querySelector('.octavos'),
+            cuartos: document.querySelector('.cuartos'),
+            semis: document.querySelector('.semis'),
+            final: document.querySelector('.final')
+        };
+
+        const renderMatch = (p, {omitLeft = false, omitRight = false} = {}) => {
+            const e1 = p.e1 || p.home || '';
+            const e2 = p.e2 || p.away || '';
+            const g1 = p.g1 ?? p.homeGoals ?? '';
+            const g2 = p.g2 ?? p.awayGoals ?? '';
+            const leftClass = omitLeft ? '' : ' izquierda';
+            const rightClass = omitRight ? '' : ' derecha';
+            return `
+                <div class="p-[5px]">
+                    <div class="border-gray-400 border rounded-lg flex flex-col">
+                        <div class="flex border-gray-400 border-b justify-between${leftClass}">
+                            <span class="w-[77%] font-medium py-1 px-2">${e1}</span>
+                            <span class="w-[23%] text-center py-1 font-bold border-gray-400 border-l">${g1}</span>
+                        </div>
+                        <div class="flex justify-between${rightClass}">
+                            <span class="w-[77%] font-medium py-1 px-2">${e2}</span>
+                            <span class="w-[23%] text-center py-1 font-bold border-gray-400 border-l">${g2}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        const groupPairs = (partidos) => {
+            const pairs = [];
+            for (let i = 0; i < partidos.length; i += 2) {
+                pairs.push([partidos[i], partidos[i + 1] || null]);
+            }
+            return pairs;
+        };
+
+        const renderRound = (partidos, container) => {
+            if (!container) return;
+            if (!partidos || partidos.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+
+            // Si es cuartos
+            if (container === containers.cuartos) {
+                const arriba = partidos.slice(0, 2);
+                const abajo = partidos.slice(2, 4);
+                const renderList = (matches) => (matches || []).map((m, i) => `
+                    <div class="flex flex-col" data-match-index="${i}">
+                        ${renderMatch(m)}
+                    </div>
+                `).join('');
+
+                container.innerHTML = `
+                    <div class="grupo w-full flex flex-col gap-[85px] px-2">
+                        ${renderList(arriba)}
+                    </div>
+                    <div class="grupo w-full flex flex-col gap-[85px] px-2">
+                        ${renderList(abajo)}
+                    </div>
+                `;
+                return;
+            }
+
+            // Si es la final
+            if (container === containers.final && partidos.length === 1) {
+                const p = partidos[0];
+                container.innerHTML = `
+                    <div class="px-2">
+                        ${renderMatch(p, {omitRight: true})}
+                    </div>
+                `;
+                return;
+            }
+
+            const pairs = groupPairs(partidos);
+            const html = pairs.map((pair, idx) => {
+                const [p1, p2] = pair;
+                const omitLeftForRound = container === containers.octavos; // omitLeft es true cuando es octavos.
+                return `
+                    <div class="grupo flex flex-col ${container === containers.semis ? 'gap-[230px] ' : ''}px-2" data-pair-index="${idx}">
+                        ${renderMatch(p1, {omitLeft: omitLeftForRound})}
+                        ${renderMatch(p2, {omitLeft: omitLeftForRound})}
+                    </div>
+                `;
+            }).join('');
+            container.innerHTML = html;
+        };
+
+        data.playoffs.forEach(r => {
+            if (!r || !r.ronda) return;
+            const ronda = r.ronda.toLowerCase();
+            if (/octav/i.test(ronda)) renderRound(Array.isArray(r.partidos) ? r.partidos : [], containers.octavos);
+            else if (/cuart/i.test(ronda)) renderRound(Array.isArray(r.partidos) ? r.partidos : [], containers.cuartos);
+            else if (/semi/i.test(ronda)) renderRound(Array.isArray(r.partidos) ? r.partidos : [], containers.semis);
+            else if (/final/i.test(ronda)) renderRound(Array.isArray(r.partidos) ? r.partidos : [], containers.final);
+        });
+    });
 
 //Partidos
 fetch('jugadores.json')
