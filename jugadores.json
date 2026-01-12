@@ -251,9 +251,9 @@
             "rival": "Ruleteros",
             "imagen_rival": "imgs/equipos/ruleteros-escudo.png",
             "resultado": "1 - 3",
-            "video": "https://www.youtube.com/embed/uwz3B40EDE0?si=LHtas-0XttEY8LHW",
             "victoria_derrota": "derrota",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/uwz3B40EDE0?si=LHtas-0XttEY8LHW",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Pelu", "numero": 5 },
@@ -277,6 +277,7 @@
             "resultado": "5 - 4",
             "victoria_derrota": "victoria",
             "dt": "Benjamin Borque",
+            "video": "https://www.youtube.com/embed/68Di-i46yis?si=ezhrYYuf9XdrXD09",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Broyi", "numero": 6 },
@@ -304,6 +305,7 @@
             "resultado": "2 - 1",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/kF92rLhJgQw",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Wency", "numero": 2 },
@@ -329,6 +331,7 @@
             "resultado": "3 - 2",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/PQP15w7g5Vk?si=AHKR89FxPdAY6qeS",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Dylan", "numero": 4 },
@@ -354,6 +357,7 @@
             "resultado": "3 - 1",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://youtube.com/embed/EEixEkXK_-w?si=EzbtIIbZ4ZcxyQ80",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Wency", "numero": 2 },
@@ -379,6 +383,7 @@
             "resultado": "2 - 4",
             "victoria_derrota": "derrota",
             "dt": "Martín Mateo",
+            "video": "https://www.youtube.com/embed/f8V1VLTWO8s",
             "convocados": [
                 { "nombre": "Dylan", "numero": 4 },
                 { "nombre": "Broyi", "numero": 6 },
@@ -404,6 +409,7 @@
             "resultado": "5 - 1",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/REFqfAqFj6k",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Coco", "numero": 3 },
@@ -430,6 +436,7 @@
             "resultado": "3 - 1",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/Nw5YzrvkQM4?si=XUV9H2Trn_6Zlx0I",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Wency", "numero": 2 },
@@ -455,6 +462,7 @@
             "resultado": "2 - 4",
             "victoria_derrota": "derrota",
             "dt": "Nicolás Funaro",
+            "video": "https://www.youtube.com/embed/KVjLKe0K-Bg?si=EhWboZURN7GyYVA-",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Dylan", "numero": 4 },
@@ -479,6 +487,7 @@
             "resultado": "6 - 1",
             "victoria_derrota": "victoria",
             "dt": "No se presento",
+            "video": "https://www.youtube.com/embed/yyvipgjvtGQ?si=7mAgTZvDx0vRcOvX",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Dylan",  "numero": 4 },
@@ -504,6 +513,7 @@
             "resultado": "8 - 3",
             "victoria_derrota": "victoria",
             "dt": "Benjamin Borques",
+            "video": "https://www.youtube.com/embed/yyvipgjvtGQ?si=nZeVhAGiL4g965k7",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Dylan", "numero": 4 },
@@ -531,6 +541,7 @@
             "resultado": "2 - 1",
             "victoria_derrota": "victoria",
             "dt": "Benjamin Borque",
+            "video": "https://www.youtube.com/embed/Pzmohp1p124?si=aVXTpcIa53c41aGg",
             "convocados": [
                 { "nombre": "Massa", "numero": 1 },
                 { "nombre": "Wency", "numero": 2 },

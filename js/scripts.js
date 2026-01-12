@@ -143,7 +143,7 @@ fetch('jugadores.json')
                 const rival = p.rival ? p.rival : 'Rival desconocido';
                 const imagen_rival = p.imagen_rival ? p.imagen_rival : 'imgs/default-rival.png';
                 const resultado = p.resultado ? p.resultado : 'Resultado desconocido';
-                const video = p.video ? p.video : 'Revisar Iframe Src';
+                const video = p.video;
                 const vod = p.victoria_derrota ? p.victoria_derrota : '';
                 const dt = p.dt ? p.dt : 'DT desconocido';
                 return `
@@ -189,7 +189,7 @@ fetch('jugadores.json')
                                 ${p.goleadores && p.goleadores.length > 0 ? p.goleadores.map(g => `<p class="flex items-center gap-1">${g.nombre} ${'<img src="imgs/football.png" alt="football" style="width: 14px; height: 14px;" /> '.repeat(g.goles || 0)} ${g.jmv ? '<strong class="border px-1">JMV</strong>' : ''}</p>`).join('') : '<p>No hay goles registrados</p>'}
                             </div>
                             <div class="flex items-center justify-center w-full md:w-1/3 p-4 bg-white rounded-xl">
-                                <iframe class="h-[100%] w-[100%] rounded-xl" src="${video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                ${video ? `<iframe class="h-[100%] w-[100%] rounded-xl" src="${video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` : '<p>No hay video disponible</p>'}
                             </div>
                         </div>
                     </div>
